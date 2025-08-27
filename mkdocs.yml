@@ -1,0 +1,6 @@
+site_name: digi_papiros
+theme:
+ name: material
+nav:
+ - Inicio: index.md
+ - Catálogo: catalogo.md
