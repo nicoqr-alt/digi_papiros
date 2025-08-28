@@ -1,6 +1,7 @@
 #!/usr/bin/env
-import csv, os
+import csv, os, json
 BASE = os.path.dirname(os.path.dirname(__file__))
+DOCS = os.path.join(BASE, "docs")
 CSV_PATH = os.path.join(BASE, "data", "catalogo.csv")
 
 def main():
@@ -65,6 +66,42 @@ def main():
     with open(catalogo_path, "w", encoding = "utf-8") as fcat:
            fcat.write("\n".join(lineas))
     print("Catalogo actualizado")
+    
+    #Crear los archivos para hacer el buscalibros
+    DATA_DIR = os.path.join(DOCS, "data")
+    os.makedirs(DATA_DIR, exist_ok = True)
+    #Pasar las cosas al formato JSON
+    def fila_a_obj(r):
+       #limpiador
+       #cada fila(diccionario) es re-hecho para que los campos con entradas múltiples se vuelvan una lista
+       def g(name, alt = None):
+                  return (r.get(name) or (r.get(alt) if alt else "") or "").strip()
+       #Obtenemos los autores
+       autores = [a.strip() for a in g("autores").split(";") if a.strip()]
+       anio = int(g("anio")) #Aquí podría haber un error
+       return{
+       "id": g("id"),
+       "titulo": g("titulo"),
+       "autores": autores,
+       "coleccion": g("coleccion"),
+       "serie":g("serie"),
+       "tomo":g("tomo"),
+       "anio": anio,
+       "editorial": g("editorial"),
+       "edicion": g("edicion"),
+       "isbn_col": g("isbn_col", "isbn_coleccion"),
+       "isbn_libro": g("isbn:libro"),
+       "estado": g("estado") or "por_recibir"
+       }
+    
+    #Creamos el catálogo JSON
+    data_json = [fila_a_obj(fila) for fila in filas]
+
+    json_path = os.path.join(DATA_DIR, "catalogo.json")
+    with open(json_path, "w", encoding = "utf-8") as jf: #Abriendo el archivo JSON como jASONfILE
+           json.dump(data_json,jf,ensure_ascii = False, indent = 2)
+    print("JSON exportado:", json_path)
+     
 
 
 if __name__ == "__main__":

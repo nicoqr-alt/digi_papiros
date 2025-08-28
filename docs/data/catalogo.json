@@ -1,0 +1,34 @@
+[
+  {
+    "id": "pap-not-1",
+    "titulo": "Teoría de singularidades en topología, geometría y foliaciones",
+    "autores": [
+      "Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Notas",
+    "tomo": "",
+    "anio": 2017,
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "1",
+    "isbn_col": "978-607-02-5149-8",
+    "isbn_libro": "",
+    "estado": "Publicado"
+  },
+  {
+    "id": "cuad-x-1",
+    "titulo": "Combinatoria",
+    "autores": [
+      "Maria Luisa Pérez Seguí"
+    ],
+    "coleccion": "Cuadernos de olimpiadas de matemáticas",
+    "serie": "",
+    "tomo": "",
+    "anio": 2018,
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "2",
+    "isbn_col": "978-968-36-8599-5",
+    "isbn_libro": "",
+    "estado": "Publicado"
+  }
+]
