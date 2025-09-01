@@ -8,7 +8,7 @@
     "coleccion": "Papirhos",
     "serie": "Notas",
     "tomo": "",
-    "anio": 2017,
+    "anio": "2017",
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "1",
     "isbn_col": "978-607-02-5149-8",
@@ -24,10 +24,74 @@
     "coleccion": "Cuadernos de olimpiadas de matemáticas",
     "serie": "",
     "tomo": "",
-    "anio": 2018,
+    "anio": "2018",
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "2",
     "isbn_col": "978-968-36-8599-5",
+    "isbn_libro": "",
+    "estado": "Publicado"
+  },
+  {
+    "id": "pap-tex-6",
+    "titulo": "Curso introductorio de álgebra I",
+    "autores": [
+      "Diana Avella, Gabriela Campero"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "1",
+    "anio": "2017",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "1",
+    "isbn_col": "978-607-02-5149-8",
+    "isbn_libro": "",
+    "estado": "Publicado"
+  },
+  {
+    "id": "pap-tex-10",
+    "titulo": "Curso introductorio de álgebra II",
+    "autores": [
+      "Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "2",
+    "anio": "2020",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "1",
+    "isbn_col": "978-607-02-5149-8",
+    "isbn_libro": "",
+    "estado": "Publicado"
+  },
+  {
+    "id": "pap-tex-1",
+    "titulo": "Grupos I",
+    "autores": [
+      "Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "1",
+    "anio": "2014",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "3",
+    "isbn_col": "978-607-02-9375-7",
+    "isbn_libro": "",
+    "estado": "Publicado"
+  },
+  {
+    "id": "pap-tex-4",
+    "titulo": "Grupos II",
+    "autores": [
+      "Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "2",
+    "anio": "2016",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "1",
+    "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "",
     "estado": "Publicado"
   }

@@ -78,7 +78,7 @@ def main():
                   return (r.get(name) or (r.get(alt) if alt else "") or "").strip()
        #Obtenemos los autores
        autores = [a.strip() for a in g("autores").split(";") if a.strip()]
-       anio = int(g("anio")) #Aquí podría haber un error
+       anio = g("anio") #Aquí podría haber un error
        return{
        "id": g("id"),
        "titulo": g("titulo"),
