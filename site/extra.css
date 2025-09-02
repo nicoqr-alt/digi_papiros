@@ -1,0 +1,75 @@
+/* Mejora en la distribución de filtros*/
+#filtros{
+    display: flex;
+    gap: .8rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: .75rem 0 1rem;
+}
+
+/*Los resultados vistos como tarjetitas*/
+.card{
+    border: 1px solid gba(0,0,0,0.15);
+    border-radius: .75rem;
+    padding: 1rem;
+    margin: .65rem 0;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 1px 3px rgba(12, 8, 132, 0.569);
+}
+.card h3 {
+    margin:.1rem 0 .35rem;
+    font-size: 1.05rem;
+}
+.card .meta {
+    margin:.3rem 0 .5rem;
+    color: var(--md-default-fg-color-lighter);
+}
+
+/*Botones en cada tarjetita*/
+.card .actions {
+    display:flex;
+    gap:.4rem;
+    flex-wrap: wrap;
+    margin-top:.6rem;
+}
+.card .md-button{
+    padding: .3rem .6rem;
+    font-size:.82rem;
+}
+@media (min-width: 820px) {
+    #resultados {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .8rem;
+    }
+    #resultados .card{ 
+        margin: 0;
+    }
+}
+@media (min-width: 1200px) {
+        #resultados {
+            display:grid;
+            grid-template-columns:
+            repeat(3, 1fr);
+        }
+    }
+.chips {
+    display:flex;
+    gap:.4rem;
+    flex-wrap:wrap;
+    margin:.25rem 0 .8rem;
+} 
+.chip{
+    display:inline-flex;
+    align-items:center;
+    gap:.35rem;
+    font-size:.78rem;
+    padding:.15rem  .5rem;
+    border-radius:999px;
+    background: var(--md-primary-fg-color--transparent);
+    border: 1px solid var(--md-default-fg-color-lighter);
+}
+.chip .icon {
+    font-size:.95em;
+    opacity:.8
+}

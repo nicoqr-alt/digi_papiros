@@ -10,7 +10,9 @@
     "tomo": "",
     "anio": "2017",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": [
+      "1"
+    ],
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "",
     "estado": "Publicado"
@@ -26,7 +28,9 @@
     "tomo": "",
     "anio": "2018",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "2",
+    "edicion": [
+      "2"
+    ],
     "isbn_col": "978-968-36-8599-5",
     "isbn_libro": "",
     "estado": "Publicado"
@@ -42,7 +46,9 @@
     "tomo": "1",
     "anio": "2017",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": [
+      "1"
+    ],
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "",
     "estado": "Publicado"
@@ -58,7 +64,9 @@
     "tomo": "2",
     "anio": "2020",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": [
+      "1"
+    ],
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "",
     "estado": "Publicado"
@@ -74,7 +82,9 @@
     "tomo": "1",
     "anio": "2014",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "3",
+    "edicion": [
+      "3"
+    ],
     "isbn_col": "978-607-02-9375-7",
     "isbn_libro": "",
     "estado": "Publicado"
@@ -90,7 +100,9 @@
     "tomo": "2",
     "anio": "2016",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": [
+      "1"
+    ],
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "",
     "estado": "Publicado"

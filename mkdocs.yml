@@ -1,7 +1,10 @@
 site_name: digi_papiros
 theme:
  name: material
+extra_css:
+ - extra.css
 nav:
  - Inicio: index.md
  - Catálogo: catalogo.md
  - Explorar: explorar.md
+

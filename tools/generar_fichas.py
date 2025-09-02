@@ -1,5 +1,6 @@
 #!/usr/bin/env
 import csv, os, json
+from textwrap import dedent
 BASE = os.path.dirname(os.path.dirname(__file__))
 DOCS = os.path.join(BASE, "docs")
 CSV_PATH = os.path.join(BASE, "data", "catalogo.csv")
@@ -74,26 +75,103 @@ def main():
     def fila_a_obj(r):
        #limpiador
        #cada fila(diccionario) es re-hecho para que los campos con entradas múltiples se vuelvan una lista
-       def g(name, alt = None):
-                  return (r.get(name) or (r.get(alt) if alt else "") or "").strip()
+       def g(name, alt = None, default = ""):
+                  return (r.get(name) or (r.get(alt) if alt else "") or default).strip()
        #Obtenemos los autores
        autores = [a.strip() for a in g("autores").split(";") if a.strip()]
        anio = g("anio") #Aquí podría haber un error
+       _id = g("id")
+       titulo = g("titulo")
+       coleccion = g("coleccion")
+       serie = g("serie")
+       tomo = g("tomo")
+       editorial =g("editorial")
+       edicion = g("edicion"),
+       isbn_col = g("isbn_col", "isbn_coleccion")
+       isbn_libro = g("isbn:libro")
+       estado = g("estado", default = "por_recibir")
+
+
+
+       cover_rel = f"assets/covers/{_id}.jpeg"
+       cover_abs = os.path.join(DOCS, cover_rel)
+       cover_md = f'![Portada de "{titulo}"]({"/"+ cover_rel})\n' if os.path.exists(cover_abs) else ""
+
+       def chip(label, val, emoji):
+              return f'<span class ="chip"></span class ="icon">{emoji}</span>{val}</span>' if val else ""
+       
+       chips = " ".join(x for x in [chip("Serie", serie, "🏷"), chip("Colección", coleccion, "📚"), chip("Año", anio, "🗓"), chip("Estado", estado.replace("_", " "), "ℹ️") ] if x
+                        )
+       #Tabla de metadatos
+
+       def opt(label, val):
+              return f"| **{label}** | {val} | \n" if val else ""
+       metadatos = (
+              "|  |  |\n"
+              "|---|---|\n"
+              + opt("Autores", ", ".join(autores) if autores else "")
+              + opt("Colección", coleccion)
+              + opt("Serie", serie)
+              + opt("Tomo", tomo)
+              + opt("Año", anio)
+              + opt("Editorial", editorial)
+              + opt("Edición", edicion)
+              + opt("ISBN (Colección)", isbn_col)
+              + opt("ISBN (Libro)", isbn_libro)
+              ).rstrip()
+
+       #YAML front matter para SEO Bùsqueda (qué es esto????)
+       front_matter = dedent(f"""\
+       ---
+       title: "{titulo}"
+       authors: {autores if autores else []}
+       tags: [{", ".join(t for t in [coleccion, serie, anio] if t)}]
+       ---
+       """)
+       #Contenido de la ficha en MARKDOWN
+       contenido = front_matter + dedent(f"""\
+       # {titulo}
+
+       <div class = "chips">{chips}</div>
+
+       {cover_md}
+
+       ## Resumen
+       {(resumen if resumen else "_Resumen próximamente._")}
+       ## Metadatos
+       {metadatos}
+       ## Descargas
+       [Ver PDF]{{{{ .md-button }}}} [EPUB](#)
+       {{{{ .md-button }}}} [HTML](#)
+       {{{{ .md-button }}}}
+       !!! info "Estado de la publicación"
+       {estado.replace("_", " ")}
+       ## Cómo citar
+       > {(", ".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""} ##Cuidado. La edición está mal puesta
+       [Volver al catálogo](/catalogo/)
+       [Explorar](/explorar/)
+       """)
+       #Crear el archivo con los datos
+       out_path = os.path.join(libros_dir, f"{_id}.md")
+       with open(out_path, "w", encoding="utf-8") as fh:
+              fh.write(contenido)
+
+       print("Ficha creada:, ", out_path)
        return{
-       "id": g("id"),
-       "titulo": g("titulo"),
-       "autores": autores,
-       "coleccion": g("coleccion"),
-       "serie":g("serie"),
-       "tomo":g("tomo"),
-       "anio": anio,
-       "editorial": g("editorial"),
-       "edicion": g("edicion"),
-       "isbn_col": g("isbn_col", "isbn_coleccion"),
-       "isbn_libro": g("isbn:libro"),
-       "estado": g("estado") or "por_recibir"
+              "id": _id,
+              "titulo": titulo,
+              "autores": autores,
+              "coleccion": coleccion,
+              "serie": serie,
+              "tomo": tomo,
+              "anio": anio,
+              "editorial": editorial,
+              "edicion": edicion,
+              "isbn_col": isbn_col,
+              "isbn_libro": isbn_libro,
+              "estado": estado,
        }
-    
+       
     #Creamos el catálogo JSON
     data_json = [fila_a_obj(fila) for fila in filas]
 
