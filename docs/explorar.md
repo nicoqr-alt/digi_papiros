@@ -21,6 +21,7 @@
 <script>
     (async function() {
     const { origin, hostname, pathname} = window.location;
+    <!-- El cálculo de la base se hace de dos formas, una para ver si estamos en deployment o si estamos trabajando con MKDCOS -->
     let BASE = origin + "/";
     if (hostname.endsWith(".github.io")) {const segs = pathname.split("/").filter(Boolean); if (segs.length> 0) BASE = `${origin}/${segs[0]}/`;}
     console.log("base = ", BASE);
