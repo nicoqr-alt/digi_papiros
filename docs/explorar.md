@@ -21,7 +21,7 @@
 <script>
     (async function() {
     const BASE = (document.querySelector('link[rel="canonical"]')?.href || window.location.href).replace(/\/[^/]*$/,'/');
-    const resp = await fetch('${BASE}data/catalogo.json');
+    const resp = await fetch('${BASE}/data/catalogo.json');
     const libros = await resp.json();
     const $ = (sel) => document.querySelector(sel);
     const unique = (arr) => Array.from(new Set(arr.filter(Boolean)));
