@@ -20,7 +20,8 @@
 <div id="resultados"></div>
 <script>
     (async function() {
-    const resp = await fetch('/data/catalogo.json');
+    const BASE = (document.querySelector('link[rel="canonical"]')?.hred || window.location.href).replace(/\[^/]*$/'/');
+    const resp = await fetch('${BASE}data/catalogo.json');
     const libros = await resp.json();
     const $ = (sel) => document.querySelector(sel);
     const unique = (arr) => Array.from(new Set(arr.filter(Boolean)));
@@ -46,7 +47,7 @@
         }
     cont.innerHTML = lista.map(x => `
         <div class="card">
-        <h3><a href="/libros/${x.id}/"> <b>${x.titulo}</b> <br>
+        <h3><a href="${BASE}libros/${x.id}/"> <b>${x.titulo}</b> <br>
             <small class="meta"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</small>
             <p>${[x.coleccion ? `Colección: ${x.coleccion}` : '', x.serie ? `Serie: ${x.serie}` : '', x.anio ? `Año: ${x.anio}` : ''].filter(Boolean).join(' | ')}</p>
         </div>
