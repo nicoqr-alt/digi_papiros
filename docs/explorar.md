@@ -20,7 +20,10 @@
 <div id="resultados"></div>
 <script>
     (async function() {
-    const BASE = window.location.origin + window.location.pathname.split('/')[0] + '/';
+    const { origin, hostname, pathname} = window.location;
+    let BASE = origin + "/";
+    if (hostname.endsWith(".github.io")) {const segs = pathname.split("/").filter(Boolean); if (segs.length> 0) BASE = `${origin}/${segs[0]}/`;}
+    console.log("base = ", BASE);
     const resp = await fetch(`${BASE}data/catalogo.json`);
     const libros = await resp.json();
     const $ = (sel) => document.querySelector(sel);
