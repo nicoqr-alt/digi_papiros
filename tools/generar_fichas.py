@@ -21,32 +21,6 @@ def main():
            _id = row["id"].strip()
            tomo = row.get("tomo","no aplica")
            resumen = row["resumen"].strip()
-
-           #En caso de que haya un error en la correspondencia de la información, agregar un str(row) para ver el diccionario asociado, imprimirlo y verificar los datos. Agregar {diccionario} al contenido para verlo.
-           contenido = f"""# {row["titulo"].strip()}
-           **Autores:** {row["autores"].strip()}
-           **Colección:** {row["coleccion"].strip()}
-           **Serie:** {row["serie"].strip()}
-           **Tomo:** {tomo if tomo else "No aplica"}
-           **Año:** {row["anio"].strip()}
-           **Editorial:** {row["editorial"].strip()}
-           **Edición:**{row["edicion"].strip()}
-           **ISBN (Colección):** {row["isbn_col"].strip()}
-           **ISBN (Libro):** {row["isbn_libro"].strip()}
-           !!! info "Estado"
-                {row.get("estado", "por determinar")}
-
-            ### Resumen
-            {resumen if resumen else "Próximamente"}
-            """
-
-
-           #Crear el archivo con los datos
-           out_path = os.path.join(libros_dir, f"{_id}.md")
-           with open(out_path, "w", encoding="utf-8") as fh:
-                  fh.write(contenido)
-
-           print("Ficha cread(fa:, ", out_path)
     
     orden_filas = sorted(
            filas,
@@ -86,12 +60,10 @@ def main():
        serie = g("serie")
        tomo = g("tomo")
        editorial =g("editorial")
-       edicion = g("edicion"),
+       edicion = g("edicion")
        isbn_col = g("isbn_col", "isbn_coleccion")
        isbn_libro = g("isbn:libro")
        estado = g("estado", default = "por_recibir")
-
-
 
        cover_rel = f"assets/covers/{_id}.jpeg"
        cover_abs = os.path.join(DOCS, cover_rel)
@@ -128,29 +100,33 @@ def main():
        tags: [{", ".join(t for t in [coleccion, serie, anio] if t)}]
        ---
        """)
-       #Contenido de la ficha en MARKDOWN
-       contenido = front_matter + dedent(f"""\
-       # {titulo}
+       #Contenido de la ficha en MARKDOWN. Nota que quité la sangría porque estoy dentro del entorno con tres comillas, entonces no importa la indentación. Si esto no se hace así, la ficha no se genera correctamente.
+       contenido = front_matter + dedent(f"""# {titulo}
+<div class = "chips">{chips}</div>
 
-       <div class = "chips">{chips}</div>
+{cover_md}
 
-       {cover_md}
+## Resumen
+{(resumen if resumen else "_Resumen próximamente._")}
 
-       ## Resumen
-       {(resumen if resumen else "_Resumen próximamente._")}
-       ## Metadatos
-       {metadatos}
-       ## Descargas
-       [Ver PDF]{{{{ .md-button }}}} [EPUB](#)
-       {{{{ .md-button }}}} [HTML](#)
-       {{{{ .md-button }}}}
-       !!! info "Estado de la publicación"
-       {estado.replace("_", " ")}
-       ## Cómo citar
-       > {(", ".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""} ##Cuidado. La edición está mal puesta
-       [Volver al catálogo](/catalogo/)
-       [Explorar](/explorar/)
-       """)
+## Metadatos
+{metadatos}
+
+## Descargas
+[Ver PDF]{{{{ .md-button }}}} [EPUB](#)
+{{{{ .md-button }}}} [HTML](#)
+{{{{ .md-button }}}}
+
+!!!info "Estado de la publicación":
+{estado.replace("_", " ")}
+
+## Cómo citar
+> {(", ".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
+
+[Volver al catálogo](/catalogo/)
+
+[Explorar](/explorar/)
+""")
        #Crear el archivo con los datos
        out_path = os.path.join(libros_dir, f"{_id}.md")
        with open(out_path, "w", encoding="utf-8") as fh:
