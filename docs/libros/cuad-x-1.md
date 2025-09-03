@@ -6,7 +6,7 @@ tags: [Cuadernos de olimpiadas de matemáticas, 2018]
 # Combinatoria
 <div class = "chips"><span class ="chip"></span class ="icon">📚</span>Cuadernos de olimpiadas de matemáticas</span> <span class ="chip"></span class ="icon">🗓</span>2018</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
 
-![Portada de "Combinatoria"](assets/covers/cuad-x-1.jpeg)
+![Portada de "Combinatoria"](../assets/covers/cuad-x-1.jpeg)
 
 
 ## Resumen

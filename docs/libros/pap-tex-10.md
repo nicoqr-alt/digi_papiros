@@ -6,7 +6,7 @@ tags: [Papirhos, Textos, 2020]
 # Curso introductorio de álgebra II
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span>Textos</span> <span class ="chip"></span class ="icon">📚</span>Papirhos</span> <span class ="chip"></span class ="icon">🗓</span>2020</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
 
-![Portada de "Curso introductorio de álgebra II"](assets/covers/pap-tex-10.jpeg)
+![Portada de "Curso introductorio de álgebra II"](../assets/covers/pap-tex-10.jpeg)
 
 
 ## Resumen

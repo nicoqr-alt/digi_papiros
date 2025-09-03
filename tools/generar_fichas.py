@@ -67,7 +67,7 @@ def main():
 
        cover_rel = f"assets/covers/{_id}.jpeg"
        cover_abs = os.path.join(DOCS, cover_rel)
-       cover_md = f'![Portada de "{titulo}"]({cover_rel})\n' if os.path.exists(cover_abs) else ""
+       cover_md = f'![Portada de "{titulo}"](../{cover_rel})\n' if os.path.exists(cover_abs) else ""
 
        def chip(label, val, emoji):
               return f'<span class ="chip"></span class ="icon">{emoji}</span>{val}</span>' if val else ""

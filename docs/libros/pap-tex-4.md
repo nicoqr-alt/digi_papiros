@@ -6,7 +6,7 @@ tags: [Papirhos, Textos, 2016]
 # Grupos II
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span>Textos</span> <span class ="chip"></span class ="icon">📚</span>Papirhos</span> <span class ="chip"></span class ="icon">🗓</span>2016</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
 
-![Portada de "Grupos II"](assets/covers/pap-tex-4.jpeg)
+![Portada de "Grupos II"](../assets/covers/pap-tex-4.jpeg)
 
 
 ## Resumen
