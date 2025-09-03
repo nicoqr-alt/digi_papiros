@@ -6,7 +6,7 @@ tags: [Papirhos, Textos, 2017]
 # Curso introductorio de álgebra I
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span>Textos</span> <span class ="chip"></span class ="icon">📚</span>Papirhos</span> <span class ="chip"></span class ="icon">🗓</span>2017</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
 
-![Portada de "Curso introductorio de álgebra I"](/assets/covers/pap-tex-6.jpeg)
+![Portada de "Curso introductorio de álgebra I"](assets/covers/pap-tex-6.jpeg)
 
 
 ## Resumen

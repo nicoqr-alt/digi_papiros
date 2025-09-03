@@ -6,7 +6,7 @@ tags: [Papirhos, Textos, 2014]
 # Grupos I
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span>Textos</span> <span class ="chip"></span class ="icon">📚</span>Papirhos</span> <span class ="chip"></span class ="icon">🗓</span>2014</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
 
-![Portada de "Grupos I"](/assets/covers/pap-tex-1.jpeg)
+![Portada de "Grupos I"](assets/covers/pap-tex-1.jpeg)
 
 
 ## Resumen
