@@ -20,7 +20,7 @@
 <div id="resultados"></div>
 <script>
     (async function() {
-    const BASE = (document.querySelector('link[rel="canonical"]')?.href || window.location.href).replace(/\[^/]*$/'/');
+    const BASE = (document.querySelector('link[rel="canonical"]')?.href || window.location.href).replace(/\/[^/]*$/,'/');
     const resp = await fetch('${BASE}data/catalogo.json');
     const libros = await resp.json();
     const $ = (sel) => document.querySelector(sel);
