@@ -8,4 +8,8 @@ nav:
  - Catálogo: catalogo.md
  - Explorar: explorar.md
  - Acerca de: acerca.md
+markdown_extensions:
+ - admonition
+ - pymdownx.details
+ - pymdownx.superfences
 

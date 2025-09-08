@@ -24,7 +24,7 @@ def bloque_pdf(_id: str) -> str:
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "{url}" type="application/pdf" width="100%" height="700">
-<p> Tu navegador no puede mostrar PDF incrustado <a href="{url}" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botòn "Descargar".</p>
+<p> Tu navegador no puede mostrar PDF incrustado <a href="{url}" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botón "Descargar".</p>
 </object>
 </details>""").strip()
 
@@ -140,7 +140,7 @@ def main():
 {downs}
 
 !!! info "Aviso"
-    documento con marca de agua para distribución **digital**.
+    Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
 > {(", ".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}

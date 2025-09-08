@@ -30,12 +30,12 @@ _Resumen próximamente._
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "pap-tex-6_mark.pdf" type="application/pdf" width="100%" height="700">
-<p> Tu navegador no puede mostrar PDF incrustado <a href="pap-tex-6_mark.pdf" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botòn "Descargar".</p>
+<p> Tu navegador no puede mostrar PDF incrustado <a href="pap-tex-6_mark.pdf" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botón "Descargar".</p>
 </object>
 </details>
 
 !!! info "Aviso"
-    documento con marca de agua para distribución **digital**.
+    Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
 > Diana Avella, Gabriela Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1

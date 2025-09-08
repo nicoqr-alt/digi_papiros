@@ -1,4 +1,4 @@
-#Proyecto para la editorial digital
+#Página de prueba para publicación de textos
 Te damos la bienvenida a la página  de ---, un proyecto dedicado a la difusión de obras académicas sobre matemáticas. Nuestro objetivo es facilitar el acceso abierto a libros y materiales de investigación de alta calidad para el público especializado y no especializado.
 
 ---
