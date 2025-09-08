@@ -24,12 +24,17 @@ _Resumen próximamente._
 | **ISBN (Colección)** | 978-607-02-5149-8 |
 
 ## Descargas
-[Ver PDF]{{ .md-button }} [EPUB](#)
-{{ .md-button }} [HTML](#)
-{{ .md-button }}
+<a class="md-button" href = "pap-not-1_mark.pdf" target = "_blank" rel ="noopener"> Abrir PDF </a>
+<a class="md-button" href ="pap-not-1_mark.pdf"download> Descargar</a>
+<details>
+<summary> Ver en línea (vista previa)</summary>
+<object data = "pap-not-1_mark.pdf" type="application/pdf" width="100%" height="700">
+<p> Tu navegador no puede mostrar PDF incrustado <a href="pap-not-1_mark.pdf" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botòn "Descargar".</p>
+</object>
+</details>
 
-!!!info "Estado de la publicación":
-Publicado
+!!! info "Aviso"
+    documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
 > Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky. (2017). *Teoría de singularidades en topología, geometría y foliaciones*. Instituto de Matemáticas, UNAM, 1

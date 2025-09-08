@@ -23,12 +23,17 @@ _Resumen próximamente._
 | **ISBN (Colección)** | 978-968-36-8599-5 |
 
 ## Descargas
-[Ver PDF]{{ .md-button }} [EPUB](#)
-{{ .md-button }} [HTML](#)
-{{ .md-button }}
+<a class="md-button" href = "cuad-x-1_mark.pdf" target = "_blank" rel ="noopener"> Abrir PDF </a>
+<a class="md-button" href ="cuad-x-1_mark.pdf"download> Descargar</a>
+<details>
+<summary> Ver en línea (vista previa)</summary>
+<object data = "cuad-x-1_mark.pdf" type="application/pdf" width="100%" height="700">
+<p> Tu navegador no puede mostrar PDF incrustado <a href="cuad-x-1_mark.pdf" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botòn "Descargar".</p>
+</object>
+</details>
 
-!!!info "Estado de la publicación":
-Publicado
+!!! info "Aviso"
+    documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
 > Maria Luisa Pérez Seguí. (2018). *Combinatoria*. Instituto de Matemáticas, UNAM, 2

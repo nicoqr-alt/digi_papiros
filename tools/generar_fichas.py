@@ -5,6 +5,29 @@ BASE = os.path.dirname(os.path.dirname(__file__))
 DOCS = os.path.join(BASE, "docs")
 CSV_PATH = os.path.join(BASE, "data", "catalogo.csv")
 
+def pdf_en_ficha(_id: str) -> str:
+       """
+       Devuelve la ruta relativa al PDF marcado si existe, o un dirección dummy
+       """
+       rel = f"{_id}_mark.pdf"
+       #./<id>_mark.pdf
+       abs_path = os.path.join(DOCS, "libros", _id, rel)
+       return rel if os.path.exists(abs_path) else ""
+
+def bloque_pdf(_id: str) -> str:
+       url = pdf_en_ficha(_id)
+       if not url: #Aunque no haya PDF aparece un placeholder
+              return '[Ver PDF](#) { .md-button }<span class = "muted">(disponible próximamente)</span>'
+       return dedent(f"""
+<a class="md-button" href = "{url}" target = "_blank" rel ="noopener"> Abrir PDF </a>
+<a class="md-button" href ="{url}"download> Descargar</a>
+<details>
+<summary> Ver en línea (vista previa)</summary>
+<object data = "{url}" type="application/pdf" width="100%" height="700">
+<p> Tu navegador no puede mostrar PDF incrustado <a href="{url}" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botòn "Descargar".</p>
+</object>
+</details>""").strip()
+
 def main():
     #Leer el CSV y listar lo que tiene
     with open(CSV_PATH, newline="",encoding="utf-8") as f:
@@ -64,7 +87,8 @@ def main():
        isbn_col = g("isbn_col", "isbn_coleccion")
        isbn_libro = g("isbn:libro")
        estado = g("estado", default = "por_recibir")
-
+       downs = bloque_pdf(_id)
+      
        cover_rel = f"assets/covers/{_id}.jpeg"
        cover_abs = os.path.join(DOCS, cover_rel)
        cover_md = f'![Portada de "{titulo}"](../{cover_rel})\n' if os.path.exists(cover_abs) else ""
@@ -113,12 +137,10 @@ def main():
 {metadatos}
 
 ## Descargas
-[Ver PDF]{{{{ .md-button }}}} [EPUB](#)
-{{{{ .md-button }}}} [HTML](#)
-{{{{ .md-button }}}}
+{downs}
 
-!!!info "Estado de la publicación":
-{estado.replace("_", " ")}
+!!! info "Aviso"
+    documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
 > {(", ".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
