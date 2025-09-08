@@ -34,6 +34,6 @@ Publicado
 ## Cómo citar
 > Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky. (2017). *Teoría de singularidades en topología, geometría y foliaciones*. Instituto de Matemáticas, UNAM, 1
 
-[Volver al catálogo](/catalogo/)
+[Volver al catálogo](../catalogo.md)
 
-[Explorar](/explorar/)
+[Explorar](../explorar.md)

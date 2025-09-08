@@ -123,9 +123,9 @@ def main():
 ## Cómo citar
 > {(", ".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
 
-[Volver al catálogo](/catalogo/)
+[Volver al catálogo](../catalogo.md)
 
-[Explorar](/explorar/)
+[Explorar](../explorar.md)
 """)
        #Crear el archivo con los datos
        out_path = os.path.join(libros_dir, f"{_id}.md")

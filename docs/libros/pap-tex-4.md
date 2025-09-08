@@ -35,6 +35,6 @@ Publicado
 ## Cómo citar
 > Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
 
-[Volver al catálogo](/catalogo/)
+[Volver al catálogo](../catalogo.md)
 
-[Explorar](/explorar/)
+[Explorar](../explorar.md)

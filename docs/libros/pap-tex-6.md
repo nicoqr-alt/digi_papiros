@@ -35,6 +35,6 @@ Publicado
 ## Cómo citar
 > Diana Avella, Gabriela Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1
 
-[Volver al catálogo](/catalogo/)
+[Volver al catálogo](../catalogo.md)
 
-[Explorar](/explorar/)
+[Explorar](../explorar.md)

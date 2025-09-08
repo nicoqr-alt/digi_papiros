@@ -3,7 +3,7 @@ Te damos la bienvenida a la página  de ---, un proyecto dedicado a la difusión
 
 ---
 ## 📚 Catálogo en línea
-Consulta el listado completo de nuestros títulos disponibles en nuestro [catálogo](catálogo.md) o utiliza la sección de [explorar](explorar.md) para filtrar y descubrir obras por tema, autor o colección.
+Consulta el listado completo de nuestros títulos disponibles en nuestro [catálogo](catalogo.md) o utiliza la sección de [explorar](explorar.md) para filtrar y descubrir obras por tema, autor o colección.
 
 ---
 ## 👥 Quiénes somos
@@ -15,5 +15,6 @@ Más detalles en la sección [Acerca de](acerca.md).
 
 ## 🗺 Empieza aquí
 [Explorar libros](explorar.md)
+
 [Ver catálogo completo](catalogo.md)
 
