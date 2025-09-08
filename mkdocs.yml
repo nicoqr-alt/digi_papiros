@@ -1,6 +1,14 @@
-site_name: IMProvisional
+site_name: IMbeta
 theme:
  name: material
+ language: es
+ palette:
+  - scheme: default
+    primary: custom
+    accent: custom
+  - scheme: slate
+    primary: custom
+    accent: custom
 extra_css:
  - extra.css
 nav:

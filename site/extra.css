@@ -1,3 +1,21 @@
+/*Modo claro*/
+:root {
+--md-primary-fg-color: #555555;
+--md-primary-fg-color--light: #961bbf;
+--md--primary-fg-color--dark: #040d10;
+
+--md-accent-fg-color: #d67719;
+}
+
+/*Modo oscuro*/
+[data-md-color-scheme="slate"]{
+--md-primary-fg-color: #555555;
+--md-primary-fg-color--light: #555555;
+--md--primary-fg-color--dark:#555555;
+
+--md-accent-fg-color:#555555 ;
+}
+
 /* Mejora en la distribución de filtros*/
 #filtros{
     display: flex;
@@ -78,3 +96,4 @@ details > summary { cursor: pointer;
     margin: .5rem 0;}
     details[open] > summary
     { margin-bottom: .5rem;}
+
