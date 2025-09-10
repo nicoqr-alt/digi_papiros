@@ -1,19 +1,6 @@
 /*Modo claro*/
 :root {
---md-primary-fg-color: #555555;
---md-primary-fg-color--light: #961bbf;
---md--primary-fg-color--dark: #040d10;
-
---md-accent-fg-color: #d67719;
-}
-
-/*Modo oscuro*/
-[data-md-color-scheme="slate"]{
---md-primary-fg-color: #555555;
---md-primary-fg-color--light: #555555;
---md--primary-fg-color--dark:#555555;
-
---md-accent-fg-color:#555555 ;
+    --md-primary-fg-color: #6c2f2f;
 }
 
 /* Mejora en la distribución de filtros*/

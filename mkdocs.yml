@@ -20,4 +20,7 @@ markdown_extensions:
  - admonition
  - pymdownx.details
  - pymdownx.superfences
-
+extra_javascript:
+ - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js
+ - js/config.js
+ - js/auth.js
