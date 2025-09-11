@@ -24,11 +24,12 @@ _Resumen próximamente._
 | **ISBN (Colección)** | 978-607-02-5149-8 |
 
 ## Descargas
-<a class="md-button" href = "pap-not-1_mark.pdf" target = "_blank" rel ="noopener"> Abrir PDF </a>
-<a class="md-button" href ="pap-not-1_mark.pdf"download> Descargar</a>
+<p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
+<a class="md-button require-auth data-book-id=pap-not-1" href = "pap-not-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button require-auth data-book-id=pap-not-1" href ="pap-not-1_mark.pdf" download> Descargar</a>
 <details>
 <summary> Ver en línea (vista previa)</summary>
-<object data = "pap-not-1_mark.pdf" type="application/pdf" width="100%" height="700">
+<object data = "pap-not-1_mark.pdf" type="application/pdf" width="100%" height="700" >
 <p> Tu navegador no puede mostrar PDF incrustado <a href="pap-not-1_mark.pdf" target="_blank" rel ="noopener"> Abrir PDF </a> o usa el botón "Descargar".</p>
 </object>
 </details>
