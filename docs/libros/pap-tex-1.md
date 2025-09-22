@@ -26,8 +26,8 @@ _Resumen próximamente._
 
 ## Descargas
 <p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
-<a class="md-button require-auth data-book-id=pap-tex-1" href = "pap-tex-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
-<a class="md-button require-auth data-book-id=pap-tex-1" href ="pap-tex-1_mark.pdf" download> Descargar</a>
+<a class="md-button require-auth data-book-id=pap-tex-1 download-link" data-book-id="pap-tex-1" href = "pap-tex-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button require-auth data-book-id=pap-tex-1 download-link" data-book-id="pap-tex-1" href ="pap-tex-1_mark.pdf" download> Descargar</a>
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "pap-tex-1_mark.pdf" type="application/pdf" width="100%" height="700" >

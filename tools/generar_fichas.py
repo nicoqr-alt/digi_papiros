@@ -20,8 +20,8 @@ def bloque_pdf(_id: str) -> str:
               return '[Ver PDF](#) { .md-button .require-auth .download-link data-book-id="{_id}" }<span class = "muted">(disponible próximamente)</span>'
        return dedent(f"""
 <p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
-<a class="md-button require-auth data-book-id={_id}" href = "{url}" target = "_blank" rel ="noopener" > Abrir PDF </a>
-<a class="md-button require-auth data-book-id={_id}" href ="{url}" download> Descargar</a>
+<a class="md-button require-auth data-book-id={_id} download-link" data-book-id="{_id}" href = "{url}" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button require-auth data-book-id={_id} download-link" data-book-id="{_id}" href ="{url}" download> Descargar</a>
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "{url}" type="application/pdf" width="100%" height="700" >

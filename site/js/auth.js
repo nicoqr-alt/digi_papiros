@@ -1,3 +1,5 @@
+//Este documento hay que estudiarlo con cuidado. Establece una conexión entre la página WEB y la API llamada supabase. Este código crea un botón de inicio y cierre de sesión que se actualiza automáticamente cuando estamos en la página y también fabrica
+//un recuadro de texto para llevar a cabo el registro.
 // docs/auth.js
 // Inicializar cliente con variables globales
 //Pide datos al explorador para saber si hay un usuario registrado y con base en eso construye un botón que puede ser para iniciar sesión o para cerrarla (ifElse)
@@ -8,35 +10,25 @@ const $qs = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
 function ensureHeaderButton(){
-    if (document.querySelector('#btn-auth'))
-        return;
     const headerInner = document.querySelector('.md-header__inner');
     if (!headerInner) return;
-
+    if (! document.querySelector('#btn-auth')){
     const btn = document.createElement('button');
     btn.id = 'btn-auth';
     btn.className = 'md-button';
-    btn.style.marginleft = 'auto';
+    btn.style.marginLeft = 'auto';
     btn.textContent = 'Ingresar / Registrarse';
     btn.style.color = "white";
     btn.style.fontWeight = "bold";
     btn.style.padding = "0.5em 1em"
     btn.addEventListener('click',onAuthButtonClick);
-    headerInner.appendChild(btn);
+    headerInner.appendChild(btn);}
 }
 function setHeaderButton(session){
     const btn = document.querySelector('#btn-auth');
     if (btn) btn.textContent = session ? 'Salir' : 'Ingresar/Registrarse';
 }
-async function onAuthButtonClick(){
-    const { data: {session} } = await sb.auth.getSession();
-    if (session) {
-        console.log('Hay sesión; luego hacemos logout');
-        return;
-    } 
-    injectAuthModal?.();
-    openAuthModal?.();
-}
+
 function injectAuthModal(){
     if (document.getElementById('auth-modal')) return;
     const div = document.createElement('div');
@@ -84,7 +76,14 @@ function injectAuthModal(){
     };
 function openAuthModal(){
     const m = document.getElementById('auth-modal');
-    if (m) m.style.display = 'grid';
+    if (!m) return;
+    m.style.display = 'grid';
+    const msg = m.querySelector('#auth-msg');
+    const loginBtn = m.querySelector('#btn-login');
+    const regBtn = m.querySelector('#btn-go-register');
+    msg && (msg.textContent = '');
+    loginBtn && (loginBtn.disabled = false);
+    regBtn && (regBtn.disabled = false);
 }
 function closeAuthModal(){
     const m = document.getElementById('auth-modal');
@@ -104,8 +103,11 @@ async function handleLogin(ev) {
         const {data, error} = await sb.auth.signInWithPassword({email: mail, password: pass});
         if (error) {msg && (msg.textContent = error.message); 
             return;}
+        const res = await sb.auth.getSession();
+        const session = res?.data?.session ??
+        null;
         closeAuthModal?.();
-        setAuthGating.apply(data.session);}
+        setAuthGating(session);}
     catch(e){
         console.error(e);
         msg && (msg.textContent = 'Error inesperado');}
@@ -141,14 +143,40 @@ function initAuthUI(){
     ensureHeaderButton();
     injectAuthModal?.();
 
-    sb.auth.getSession().then(({data:{session}}) => setHeaderButton(session));
-    sb.auth.onAuthStateChange((_event, session) => setHeaderButton(session));
+    //Estado inicial
+    sb.auth.getSession().then(({data: {session}}) => setAuthGating(session));
+
+    //Cambios de sesión en caliente
+    sb.auth.onAuthStateChange((_event, session) => {setAuthGating(session); if (session) closeAuthModal?.();});
+
+    setupDownloadTracking();
 }
 function setAuthGating(session){
     const logged = !!session;
-    $$('.require-auth').forEach(el => el?.classList.toggle('hidden', !logged));
-    $$('.require-anon').forEach(el => el?.classList.toggle('hidden',logged));
-    setHeaderButton(session);
+    ensureHeaderButton();
+    const label = logged? 'Salir':'Ingresar/Registrarse'
+    document.querySelectorAll('.require-auth').forEach(el => el.classList.toggle('hidden', !logged));
+    document.querySelectorAll('.require-anon').forEach(el => el.classList.toggle('hidden', logged));
+    //Texto del botón
+    document.querySelectorAll('#btn-auth').forEach(btn => {btn.textContent = logged ? 'Salir' : 'Ingresar / Registrarse';});
+}
+function setupDownloadTracking(){
+
+    document.querySelectorAll('.dowload-link').forEach(link => {link.addEventListener('click', async (ev) => {const {data : {session}} = await sb.auth.getSession(); if (!session) {ev.preventDefault(); openAuthModal(); return;} 
+    const bookId = link.dataset.bookId || 'desconocido'; console.log('Descarga registrada ${bookId} por ${session.user.email}');});});
+}
+async function onAuthButtonClick(){
+    const { data: {session} } = await sb.auth.getSession();
+    if (session) {
+        try{await sb.auth.signOut();}
+        catch(e) {console.error('Error al cerrar sesión', e);}
+        setAuthGating(null)
+        const m = document.getElementById('auth-msg');
+        if (m) m.textContent = '';
+        return;
+    } 
+    injectAuthModal?.();
+    openAuthModal?.();
 }
 (async () => {
 const {data: {session}, error} = await sb.auth.getSession();
@@ -160,15 +188,11 @@ else{
 }
 })();
 
-(async () => {
-ensureHeaderButton();
-const{data : {session}} = await sb.auth.getSession();
-setHeaderButton(session);
-sb.auth.onAuthStateChange((_event, session) => setHeaderButton(session));})();//Creamos el MODAL para poder iniciar sesión o registrarse
-
-if (document.readyState === 'loading'){
-    document.addEventListener('DOMContentLoaded', initAuthUI);
-}
-else{
-    initAuthUI();
-}
+(function(){
+    const start = () => {try {initAuthUI();} catch(e){console.error(e);}};
+    if (document.readyState === 'loading')
+        document.addEventListener('DOMContentLoaded', async()=> {const{data:{session}} = await sb.auth.getSession(); setAuthGating(session);});
+    else start();
+    if(window.document$?.subscribe)
+        window.document$.subscribe(start);
+})();

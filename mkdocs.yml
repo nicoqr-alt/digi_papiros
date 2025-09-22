@@ -15,12 +15,13 @@ nav:
  - Inicio: index.md
  - Catálogo: catalogo.md
  - Explorar: explorar.md
+ - Estadísticas: estadisticas.md
  - Acerca de: acerca.md
 markdown_extensions:
  - admonition
  - pymdownx.details
  - pymdownx.superfences
 extra_javascript:
- - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js
  - js/config.js
+ - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js
  - js/auth.js

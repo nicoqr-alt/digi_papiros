@@ -84,3 +84,4 @@ details > summary { cursor: pointer;
     details[open] > summary
     { margin-bottom: .5rem;}
 
+.hidden{display: none !important;}
