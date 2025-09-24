@@ -286,6 +286,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../../estadisticas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estadísticas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../acerca/" class="md-nav__link">
         
   
@@ -422,8 +444,8 @@
 </table>
 <h2 id="descargas">Descargas</h2>
 <p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
-<p><a class="md-button require-auth data-book-id=cuad-x-1" href = "cuad-x-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
-<a class="md-button require-auth data-book-id=cuad-x-1" href ="cuad-x-1_mark.pdf" download> Descargar</a></p>
+<p><a class="md-button require-auth data-book-id=cuad-x-1 download-link" data-book-id="cuad-x-1" href = "cuad-x-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button require-auth data-book-id=cuad-x-1 download-link" data-book-id="cuad-x-1" href ="cuad-x-1_mark.pdf" download> Descargar</a></p>
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "cuad-x-1_mark.pdf" type="application/pdf" width="100%" height="700" >
@@ -466,22 +488,28 @@
         
       </main>
       
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
+        
+
+<footer class = "site-footer md-typeset">
+    <div class = "footer-inner">
+        <div class = "footer-brand">
+            <img src = "../..assets/papirhosLogo.svg" alt = "Logo" class = "footer-logo" onerror = "this.style.display='none'">
+            <div class ="footer-title">Editorial de Matemáticas</div>
+            <div class ="footer-subtitle">Libros y libres</div>
+
+        <nav class="footer-links">
+            <a href ="../..acerca/"> Acerca de</a>
+            <a href ="../..catalogo/"> Catálogo</a>
+            <a href ="../..explorar/"> Explorar</a>
+            <a href = "mailto:contacto@ejemplo.org">Contacto</a>
+        </nav>
+
+        <div class = "footer-meta">
+            <span> COPYLEFT 2025 Editorial de Matemáticas </span>
+            <span class = "dot">.</span>
+            <span> Hecho con MkDocs Material</span>
+        </div>
     </div>
-  </div>
 </footer>
       
     </div>
@@ -497,9 +525,9 @@
     
       <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
-        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
-      
         <script src="../../js/config.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
       
         <script src="../../js/auth.js"></script>
       

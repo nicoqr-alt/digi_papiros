@@ -85,3 +85,70 @@ details > summary { cursor: pointer;
     { margin-bottom: .5rem;}
 
 .hidden{display: none !important;}
+
+.site-footer{
+    margin-top: 2rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--md-default-fg-color-lightest);
+    background: var(--md-default-bg-color);
+
+}
+
+.site-footer .footer-inner{
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 0 1 rem;
+    display: grid;
+    gap: .75rem;
+
+}
+
+@media (min-width: 768px){
+    .site-footer .footer-inner{
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+    }
+
+}
+
+.footer-brand{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.footer-logo{
+    width: 36px;
+    height: 36px;
+}
+
+.footer-title{
+    font-weight: 700;
+
+}
+
+.footer-subtitle{
+    font-size: .9rem;
+    opacity: .8;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-meta{
+    grid-column: 1 / -1;
+    font-size: .9rem;
+    opacity: .8;
+}
+
+.footer-meta .dot{
+    margin: 0 .4rem;
+}

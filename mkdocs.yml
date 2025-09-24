@@ -1,7 +1,10 @@
 site_name: IMbeta
 theme:
  name: material
+ custom_dir : docs/overrides 
  language: es
+ favicon: assets/favicon.svg
+ logo: assets/logo.svg
  palette:
   - scheme: default
     primary: custom
@@ -11,6 +14,8 @@ theme:
     accent: custom
 extra_css:
  - extra.css
+extra:
+ current_year: 2025
 nav:
  - Inicio: index.md
  - Catálogo: catalogo.md

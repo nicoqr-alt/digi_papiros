@@ -7,7 +7,7 @@
 <table id = "top-books" class = "md-typeset">
     <thead>
         <tr>
-            <th> Libro (book_id) </th>
+            <th> Título </th>
             <th>Descargas (total) </th>
         </tr>
     </thead>
@@ -27,27 +27,14 @@ function renderStats() {
 
   tbody.innerHTML = `<tr><td colspan="2" style="opacity:.7">Cargando…</td></tr>`;
 
-  sb.from('v_downloads_by_book')
-    .select('book_id,total')
-    .order('total', { ascending: false })
-    .limit(50)
-    .then(({ data, error }) => {
-      if (error) {
-        console.error(error);
-        tbody.innerHTML = `<tr><td colspan="2" style="color:#c00;">Error al cargar datos</td></tr>`;
-        return;
-      }
-      if (!data || data.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="2" style="opacity:.7">Sin datos aún</td></tr>`;
-        return;
-      }
-      tbody.innerHTML = data.map(r => `
-        <tr>
-          <td>${r.book_id}</td>
-          <td>${r.total}</td>
-        </tr>
-      `).join('');
-    });
+  fetch('/data/catalogo.json').then(r=> r.json()).catch(()=> []).then(catalogo => {
+    const titleById = Object.fromEntries((catalogo || []).map(b=> [b.id, b.titulo || b.title || b.nombre || b.id])); 
+    return sb.from('v_downloads_by_book').select('book_id, total').order('total', {ascending : false}).limit(50).then(({data, error})=> {if (error) throw error; if (!data || data.length ===0){tbody.innerHTML = `<tr><td colspan="2" style="opacity:.7">Sin datos aún</td></tr>`; return;
+
+    } 
+    tbody.innerHTML = data.map(r => {const titulo = titleById[r.book_id] ?? r.book_id; return `<tr><td>${titulo}</td><td>${r.total}</td></tr>`;}).join('');});
+  }).catch(e=> {console.error(e); tbody.innerHTML = `<tr><td colspan="2" style="color:#c00;">Error al cargar datos</td></tr>`;
+        return;});
 }
 
 // 1) Ejecutar cuando cargue todo el sitio

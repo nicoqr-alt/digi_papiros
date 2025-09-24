@@ -1,0 +1,23 @@
+{% set year = config.extra.current_year or now().year %}
+
+<footer class = "site-footer md-typeset">
+    <div class = "footer-inner">
+        <div class = "footer-brand">
+            <img src = "{{base_url}}/assets/papirhosLogo.svg" alt = "Logo" class = "footer-logo" onerror = "this.style.display='none'">
+            <div class ="footer-title">Editorial de Matemáticas</div>
+            <div class ="footer-subtitle">Libros y libres</div>
+
+        <nav class="footer-links">
+            <a href ="{{base_url}}acerca/"> Acerca de</a> |
+            <a href ="{{base_url}}catalogo/"> Catálogo</a> |
+            <a href ="{{base_url}}explorar/"> Explorar</a> |
+            <a href = "mailto:contacto@ejemplo.org">Contacto</a>
+        </nav>
+
+        <div class = "footer-meta">
+            <span> ☀ {{year}} Editorial de Matemáticas </span>
+            <span class = "dot">☁</span>
+            <span> Hecho con MkDocs Material</span>
+        </div>
+    </div>
+</footer>

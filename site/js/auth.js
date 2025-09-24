@@ -4,6 +4,7 @@
 // Inicializar cliente con variables globales
 //Pide datos al explorador para saber si hay un usuario registrado y con base en eso construye un botón que puede ser para iniciar sesión o para cerrarla (ifElse)
 const sb = supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+window.sb = sb; //Para poder usar sb en la consola
 //Helpers cortos
 const $id = (id, root = document) => root.getElementById(id);
 const $qs = (sel, root = document) => root.querySelector(sel);
@@ -139,6 +140,17 @@ async function handleRegister(ev){
         btn && (btn.disabled = false);
     }
 }
+
+//Registra una descarga y no bloquea la navegación
+async function logDownload(bookId){
+    try{
+        await sb.from('downloads').insert([{user_id: null, book_id: bookId, user_agent: navigator.userAgent}]);
+    } catch(e){
+        console.warn('No se pudo registrar la descarga:', e?.message || e)
+    }
+}
+
+
 function initAuthUI(){
     ensureHeaderButton();
     injectAuthModal?.();
@@ -161,9 +173,16 @@ function setAuthGating(session){
     document.querySelectorAll('#btn-auth').forEach(btn => {btn.textContent = logged ? 'Salir' : 'Ingresar / Registrarse';});
 }
 function setupDownloadTracking(){
+ //Capta clics en cualquier enlace con la clase y el data-atributo
+ document.addEventListener('click', (ev) =>
+    {
+        const a = ev.target.closest('a.download-link[data-book-id]');
+        if (!a) return;
 
-    document.querySelectorAll('.dowload-link').forEach(link => {link.addEventListener('click', async (ev) => {const {data : {session}} = await sb.auth.getSession(); if (!session) {ev.preventDefault(); openAuthModal(); return;} 
-    const bookId = link.dataset.bookId || 'desconocido'; console.log('Descarga registrada ${bookId} por ${session.user.email}');});});
+        const bookId = 
+        a.getAttribute('data-book-id') || 'desconocido'; //Registramos sin bloquear el click
+        logDownload(bookId); //Luego validaremos la sesion
+    }, {capture: true});
 }
 async function onAuthButtonClick(){
     const { data: {session} } = await sb.auth.getSession();
@@ -196,3 +215,5 @@ else{
     if(window.document$?.subscribe)
         window.document$.subscribe(start);
 })();
+
+
