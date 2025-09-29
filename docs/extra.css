@@ -14,7 +14,7 @@
 
 /*Los resultados vistos como tarjetitas*/
 .card{
-    border: 1px solid gba(0,0,0,0.15);
+    border: 1px solid rgba(0,0,0,0.15);
     border-radius: .75rem;
     padding: 1rem;
     margin: .65rem 0;
@@ -27,7 +27,7 @@
 }
 .card .meta {
     margin:.3rem 0 .5rem;
-    color: var(--md-default-fg-color-lighter);
+    color: var(--md-default-fg-color--lighter);
 }
 
 /*Botones en cada tarjetita*/
@@ -87,8 +87,8 @@ details > summary { cursor: pointer;
 .hidden{display: none !important;}
 
 .site-footer{
-    margin-top: 2rem;
-    padding: 1.25rem 0;
+    margin-top: 1.5rem;
+    padding: 1rem 0;
     border-top: 1px solid var(--md-default-fg-color-lightest);
     background: var(--md-default-bg-color);
 
@@ -98,57 +98,59 @@ details > summary { cursor: pointer;
     max-width: 64rem;
     margin: 0 auto;
     padding: 0 1 rem;
-    display: grid;
-    gap: .75rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 
 }
+
+@media (max-width: 767px){
+
+    .site-footer{
+        padding: .5rem 0;
+    }
+    .footer-brand{
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    }
+    .footer-links{
+        display: none;
+    }
+    .footer-meta{
+        font-size: .75rem;
+        text-align: center;
+        margin-top: .25rem;
+    }
+    .footer-logo{
+        display: block;
+        margin: 0 auto;
+        width: 28px;
+        height: 28px;
+    }
+    .footer-title, .footer-subtitle{
+        font-size: .85rem;
+        line-height: 1.1;
+        text-align: center;
+    }
+}
+
 
 @media (min-width: 768px){
-    .site-footer .footer-inner{
-        grid-template-columns: 1fr auto;
-        grid-template-rows: auto auto;
+    .footer-brand{
+        flex-direction: row;
         align-items: center;
+        text-align: center;
+        gap: .75 rem;
     }
-
+    .footer-logo{
+        width: 40px;
+        height: 40px;
+        margin: 0;
+    }
+    .footer-meta{
+        text-align: center;
+    }
 }
 
-.footer-brand{
-    display: flex;
-    align-items: center;
-    gap: .75rem;
-}
 
-.footer-logo{
-    width: 36px;
-    height: 36px;
-}
-
-.footer-title{
-    font-weight: 700;
-
-}
-
-.footer-subtitle{
-    font-size: .9rem;
-    opacity: .8;
-}
-
-.footer-links {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.footer-links a {
-    text-decoration: none;
-}
-
-.footer-meta{
-    grid-column: 1 / -1;
-    font-size: .9rem;
-    opacity: .8;
-}
-
-.footer-meta .dot{
-    margin: 0 .4rem;
-}
