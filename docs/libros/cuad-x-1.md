@@ -10,7 +10,7 @@ tags: [Cuadernos de olimpiadas de matemáticas, 2018]
 
 
 ## Resumen
-_Resumen próximamente._
+proximamente
 
 ## Metadatos
 |  |  |
@@ -38,6 +38,12 @@ _Resumen próximamente._
 
 ## Cómo citar
 > Maria Luisa Pérez Seguí. (2018). *Combinatoria*. Instituto de Matemáticas, UNAM, 2
+
+<details>
+  <summary>BibTeX</summary>
+  <p style="font-family:'Courier New'">@book _id, <br>title = Combinatoria, <br>author = Maria Luisa Pérez Seguí, <br>year = 2018, <br>publisher = editorial, <br>address = México </p>
+</details>
+
 
 [Volver al catálogo](../catalogo.md)
 

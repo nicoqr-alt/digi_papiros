@@ -10,7 +10,7 @@ tags: [Papirhos, Textos, 2020]
 
 
 ## Resumen
-_Resumen próximamente._
+proximamente
 
 ## Metadatos
 |  |  |
@@ -40,6 +40,12 @@ _Resumen próximamente._
 
 ## Cómo citar
 > Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez. (2020). *Curso introductorio de álgebra II*. Instituto de Matemáticas, UNAM, 1
+
+<details>
+  <summary>BibTeX</summary>
+  <p style="font-family:'Courier New'">@book _id, <br>title = Curso introductorio de álgebra II, <br>author = Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez, <br>year = 2020, <br>publisher = editorial, <br>address = México </p>
+</details>
+
 
 [Volver al catálogo](../catalogo.md)
 

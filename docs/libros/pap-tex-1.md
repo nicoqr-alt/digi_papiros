@@ -10,7 +10,7 @@ tags: [Papirhos, Textos, 2014]
 
 
 ## Resumen
-_Resumen próximamente._
+proximamente
 
 ## Metadatos
 |  |  |
@@ -40,6 +40,12 @@ _Resumen próximamente._
 
 ## Cómo citar
 > Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto. (2014). *Grupos I*. Instituto de Matemáticas, UNAM, 3
+
+<details>
+  <summary>BibTeX</summary>
+  <p style="font-family:'Courier New'">@book _id, <br>title = Grupos I, <br>author = Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto, <br>year = 2014, <br>publisher = editorial, <br>address = México </p>
+</details>
+
 
 [Volver al catálogo](../catalogo.md)
 

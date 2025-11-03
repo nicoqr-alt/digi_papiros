@@ -178,8 +178,6 @@ def main():
     with open(json_path, "w", encoding = "utf-8") as jf: #Abriendo el archivo JSON como jASONfILE
            json.dump(data_json,jf,ensure_ascii = False, indent = 2)
     print("JSON exportado:", json_path)
-     
-
 
 if __name__ == "__main__":
             main()

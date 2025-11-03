@@ -10,7 +10,7 @@ tags: [Papirhos, Textos, 2017]
 
 
 ## Resumen
-_Resumen próximamente._
+proximamente
 
 ## Metadatos
 |  |  |
@@ -40,6 +40,12 @@ _Resumen próximamente._
 
 ## Cómo citar
 > Diana Avella, Gabriela Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1
+
+<details>
+  <summary>BibTeX</summary>
+  <p style="font-family:'Courier New'">@book _id, <br>title = Curso introductorio de álgebra I, <br>author = Diana Avella, Gabriela Campero, <br>year = 2017, <br>publisher = editorial, <br>address = México </p>
+</details>
+
 
 [Volver al catálogo](../catalogo.md)
 
