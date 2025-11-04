@@ -1,6 +1,6 @@
 ---
 title: "Grupos II"
-authors: ['Diana>Avella', 'Octavio>Mendoza', 'Edith Corina>Sáenz', 'María José>Souto']
+authors: [[['Diana'], ['Avella']], [['Octavio'], ['Mendoza']], [['Edith', 'Corina'], ['Sáenz']], [['María', 'José'], ['Souto']]]
 tags: [Papirhos, Textos, 2016]
 ---
 # Grupos II
@@ -14,7 +14,7 @@ proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana>Avella, Octavio>Mendoza, Edith Corina>Sáenz, María José>Souto | 
+| **Autores** | Diana Avella, Octavio Mendoza, Edith, Corina Sáenz, María, José Souto | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
 | **Tomo** | 2 | 
@@ -38,11 +38,11 @@ proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana>Avella,Octavio>Mendoza,Edith Corina>Sáenz,María José>Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
+> Diana Avella, Octavio Mendoza, Edith, Corina Sáenz, María, José Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-tex-4, <br>title = {Grupos II}, <br>author = {Diana>Avella and Octavio>Mendoza and Edith Corina>Sáenz and María José>Souto}, <br>year = {2016}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-4, <br>title = {Grupos II}, <br>author = {Avella, Diana and Mendoza, Octavio and Sáenz, Edith and Souto, María}, <br>year = {2016}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

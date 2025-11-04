@@ -1,6 +1,6 @@
 ---
 title: "Curso introductorio de álgebra I"
-authors: ['Diana>Avella', 'Gabriela>Campero']
+authors: [[['Diana'], ['Avella']], [['Gabriela'], ['Campero']]]
 tags: [Papirhos, Textos, 2017]
 ---
 # Curso introductorio de álgebra I
@@ -14,7 +14,7 @@ proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana>Avella, Gabriela>Campero | 
+| **Autores** | Diana Avella, Gabriela Campero | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
 | **Tomo** | 1 | 
@@ -38,11 +38,11 @@ proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana>Avella,Gabriela>Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1
+> Diana Avella, Gabriela Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-tex-6, <br>title = {Curso introductorio de álgebra I}, <br>author = {Diana>Avella and Gabriela>Campero}, <br>year = {2017}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-6, <br>title = {Curso introductorio de álgebra I}, <br>author = {Avella, Diana and Campero, Gabriela}, <br>year = {2017}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

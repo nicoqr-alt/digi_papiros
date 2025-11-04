@@ -12,6 +12,15 @@ def fila_a_obj(r):
        #cada fila (del diccionario) es re-hecha para que los campos con entradas múltiples (e.g., múltiples autores) se vuelvan una lista
        autores, anio, _id, titulo, coleccion, serie, tomo, editorial, edicion, isbn_col, isbn_libro, estado, resumen, downs = extractidatos.extractidatos(r)
 
+       #Autores normal:
+       autsnor = [", ".join(autor[0]) + " " + ", ".join(autor[1]) for autor in autores]
+
+       #Autores bibtex:
+       
+       autbib =  [autor[1][0] +", "+ autor[0][0] for autor in autores]
+
+
+
        #Obtención de gráficos
        cover_rel = f"assets/covers/{_id}.jpeg"
        cover_abs = os.path.join(DOCS, cover_rel)
@@ -26,7 +35,7 @@ def fila_a_obj(r):
        #Tabla de metadatos
        metadatos = escribe_metadatos.escribe_metadatos(autores, coleccion, serie, tomo, anio, editorial, edicion, isbn_col, isbn_libro)
 
-       #YAML front matter para SEO Bùsqueda (qué es esto????)
+       #YAML front matter para búsqueda SEO
        front_matter = dedent(f"""\
        ---
        title: "{titulo}"
@@ -53,11 +62,11 @@ def fila_a_obj(r):
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> {(",".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
+> {(", ".join(autsnor) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{{{_id}, <br>title = {{{titulo}}}, <br>author = {{{" and ".join(autores) if autores else ""}}}, <br>year = {{{anio}}}, <br>publisher = {{{editorial}}}, <br>address = {{México}}}} </p>
+  <p style="font-family:'Courier New'">@BOOK{{{_id}, <br>title = {{{titulo}}}, <br>author = {{{" and ".join(autbib) if autores else ""}}}, <br>year = {{{anio}}}, <br>publisher = {{{editorial}}}, <br>address = {{México}}}} </p>
 </details>
 
 
