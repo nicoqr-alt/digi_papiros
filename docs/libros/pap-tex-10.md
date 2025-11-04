@@ -1,13 +1,12 @@
 ---
 title: "Curso introductorio de álgebra II"
-authors: ['Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez']
+authors: ['Diana>Avella Alaminos', 'Gabriela>Campero Arena', 'Edith Corina>Sáenz Valadez']
 tags: [Papirhos, Textos, 2020]
 ---
 # Curso introductorio de álgebra II
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span>Textos</span> <span class ="chip"></span class ="icon">📚</span>Papirhos</span> <span class ="chip"></span class ="icon">🗓</span>2020</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2020</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
-![Portada de "Curso introductorio de álgebra II"](../assets/covers/pap-tex-10.jpeg)
-
+<p align = "left"> <img src = ../../assets/covers/pap-tex-10.jpeg width="500" height="600"></p>
 
 ## Resumen
 proximamente
@@ -15,7 +14,7 @@ proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez | 
+| **Autores** | Diana>Avella Alaminos, Gabriela>Campero Arena, Edith Corina>Sáenz Valadez | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
 | **Tomo** | 2 | 
@@ -39,11 +38,11 @@ proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez. (2020). *Curso introductorio de álgebra II*. Instituto de Matemáticas, UNAM, 1
+> Diana>Avella Alaminos,Gabriela>Campero Arena,Edith Corina>Sáenz Valadez. (2020). *Curso introductorio de álgebra II*. Instituto de Matemáticas, UNAM, 1
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@book _id, <br>title = Curso introductorio de álgebra II, <br>author = Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez, <br>year = 2020, <br>publisher = editorial, <br>address = México </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-10, <br>title = {Curso introductorio de álgebra II}, <br>author = {Diana>Avella Alaminos and Gabriela>Campero Arena and Edith Corina>Sáenz Valadez}, <br>year = {2020}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

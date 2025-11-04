@@ -1,13 +1,12 @@
 ---
 title: "Grupos II"
-authors: ['Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto']
+authors: ['Diana>Avella', 'Octavio>Mendoza', 'Edith Corina>Sáenz', 'María José>Souto']
 tags: [Papirhos, Textos, 2016]
 ---
 # Grupos II
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span>Textos</span> <span class ="chip"></span class ="icon">📚</span>Papirhos</span> <span class ="chip"></span class ="icon">🗓</span>2016</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2016</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
-![Portada de "Grupos II"](../assets/covers/pap-tex-4.jpeg)
-
+<p align = "left"> <img src = ../../assets/covers/pap-tex-4.jpeg width="500" height="600"></p>
 
 ## Resumen
 proximamente
@@ -15,7 +14,7 @@ proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto | 
+| **Autores** | Diana>Avella, Octavio>Mendoza, Edith Corina>Sáenz, María José>Souto | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
 | **Tomo** | 2 | 
@@ -39,11 +38,11 @@ proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
+> Diana>Avella,Octavio>Mendoza,Edith Corina>Sáenz,María José>Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@book _id, <br>title = Grupos II, <br>author = Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto, <br>year = 2016, <br>publisher = editorial, <br>address = México </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-4, <br>title = {Grupos II}, <br>author = {Diana>Avella and Octavio>Mendoza and Edith Corina>Sáenz and María José>Souto}, <br>year = {2016}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

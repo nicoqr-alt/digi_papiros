@@ -1,13 +1,12 @@
 ---
 title: "Curso introductorio de álgebra I"
-authors: ['Diana Avella, Gabriela Campero']
+authors: ['Diana>Avella', 'Gabriela>Campero']
 tags: [Papirhos, Textos, 2017]
 ---
 # Curso introductorio de álgebra I
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span>Textos</span> <span class ="chip"></span class ="icon">📚</span>Papirhos</span> <span class ="chip"></span class ="icon">🗓</span>2017</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2017</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
-![Portada de "Curso introductorio de álgebra I"](../assets/covers/pap-tex-6.jpeg)
-
+<p align = "left"> <img src = ../../assets/covers/pap-tex-6.jpeg width="500" height="600"></p>
 
 ## Resumen
 proximamente
@@ -15,7 +14,7 @@ proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana Avella, Gabriela Campero | 
+| **Autores** | Diana>Avella, Gabriela>Campero | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
 | **Tomo** | 1 | 
@@ -39,11 +38,11 @@ proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Gabriela Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1
+> Diana>Avella,Gabriela>Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@book _id, <br>title = Curso introductorio de álgebra I, <br>author = Diana Avella, Gabriela Campero, <br>year = 2017, <br>publisher = editorial, <br>address = México </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-6, <br>title = {Curso introductorio de álgebra I}, <br>author = {Diana>Avella and Gabriela>Campero}, <br>year = {2017}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

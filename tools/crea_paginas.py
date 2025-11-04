@@ -16,10 +16,11 @@ def fila_a_obj(r):
        cover_rel = f"assets/covers/{_id}.jpeg"
        cover_abs = os.path.join(DOCS, cover_rel)
        cover_md = f'![Portada de "{titulo}"](../{cover_rel})\n' if os.path.exists(cover_abs) else ""
+       cover_file = f'../../{cover_rel}' if os.path.exists(cover_abs) else ""
 
        #Escritor de chip para la página de ficha
        def chip(label, val, emoji):
-              return f'<span class ="chip"></span class ="icon">{emoji}</span>{val}</span>' if val else ""
+              return f'<span class ="chip"></span class ="icon">{emoji}</span> {val}</span>' if val else ""
        chips = " ".join(x for x in [chip("Serie", serie, "🏷"), chip("Colección", coleccion, "📚"), chip("Año", anio, "🗓"), chip("Estado", estado.replace("_", " "), "ℹ️") ] if x
                         )
        #Tabla de metadatos
@@ -37,7 +38,7 @@ def fila_a_obj(r):
        contenido = front_matter + dedent(f"""# {titulo}
 <div class = "chips">{chips}</div>
 
-{cover_md}
+<p align = "left"> <img src = {cover_file} width="500" height="600"></p>
 
 ## Resumen
 {(resumen if resumen else "_Resumen próximamente._")}
@@ -52,11 +53,11 @@ def fila_a_obj(r):
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> {(", ".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
+> {(",".join(autores) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@book _id, <br>title = {titulo}, <br>author = {", ".join(autores) if autores else ""}, <br>year = {anio}, <br>publisher = editorial, <br>address = México </p>
+  <p style="font-family:'Courier New'">@BOOK{{{_id}, <br>title = {{{titulo}}}, <br>author = {{{" and ".join(autores) if autores else ""}}}, <br>year = {{{anio}}}, <br>publisher = {{{editorial}}}, <br>address = {{México}}}} </p>
 </details>
 
 

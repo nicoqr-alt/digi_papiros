@@ -1,13 +1,12 @@
 ---
 title: "Combinatoria"
-authors: ['Maria Luisa Pérez Seguí']
+authors: ['Maria Luisa>Pérez Seguí']
 tags: [Cuadernos de olimpiadas de matemáticas, 2018]
 ---
 # Combinatoria
-<div class = "chips"><span class ="chip"></span class ="icon">📚</span>Cuadernos de olimpiadas de matemáticas</span> <span class ="chip"></span class ="icon">🗓</span>2018</span> <span class ="chip"></span class ="icon">ℹ️</span>Publicado</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">📚</span> Cuadernos de olimpiadas de matemáticas</span> <span class ="chip"></span class ="icon">🗓</span> 2018</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
-![Portada de "Combinatoria"](../assets/covers/cuad-x-1.jpeg)
-
+<p align = "left"> <img src = ../../assets/covers/cuad-x-1.jpeg width="500" height="600"></p>
 
 ## Resumen
 proximamente
@@ -15,7 +14,7 @@ proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Maria Luisa Pérez Seguí | 
+| **Autores** | Maria Luisa>Pérez Seguí | 
 | **Colección** | Cuadernos de olimpiadas de matemáticas | 
 | **Año** | 2018 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
@@ -37,11 +36,11 @@ proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Maria Luisa Pérez Seguí. (2018). *Combinatoria*. Instituto de Matemáticas, UNAM, 2
+> Maria Luisa>Pérez Seguí. (2018). *Combinatoria*. Instituto de Matemáticas, UNAM, 2
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@book _id, <br>title = Combinatoria, <br>author = Maria Luisa Pérez Seguí, <br>year = 2018, <br>publisher = editorial, <br>address = México </p>
+  <p style="font-family:'Courier New'">@BOOK{cuad-x-1, <br>title = {Combinatoria}, <br>author = {Maria Luisa>Pérez Seguí}, <br>year = {2018}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 
