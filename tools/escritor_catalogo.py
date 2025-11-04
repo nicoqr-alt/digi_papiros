@@ -9,3 +9,4 @@ def lista_catalogo(lista_datos):
         lineas.append(f"- **[{titulo}](libros/{ident}.md)** {coleccion} {serie} - {estado}")
         lineas.append("")
     return lineas
+

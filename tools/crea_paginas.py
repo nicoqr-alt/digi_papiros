@@ -68,3 +68,4 @@ def fila_a_obj(r):
        out_path = os.path.join(os.path.join(BASE,"docs","libros"), f"{_id}.md")
        with open(out_path, "w", encoding="utf-8") as fh:
               fh.write(contenido)
+
