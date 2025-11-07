@@ -41,6 +41,15 @@
     padding: .3rem .6rem;
     font-size:.82rem;
 }
+
+.md-banner {
+  background-color: #303030; /* Example: use primary theme color */
+  font-size: 0.9em;
+  padding: 10px 20px;
+  text-align: center;
+  /* Add other styles as needed */
+}
+
 @media (min-width: 820px) {
     #resultados {
         display:grid;
