@@ -20,12 +20,12 @@ def fila_a_obj(r):
        autbib =  [autor[1][0] +", "+ autor[0][0] for autor in autores]
 
 
-
        #Obtención de gráficos
-       cover_rel = f"assets/covers/{_id}.jpeg"
+       covername = f"assets/covers/{_id}"
+       cover_rel = covername+".png" 
        cover_abs = os.path.join(DOCS, cover_rel)
        cover_md = f'![Portada de "{titulo}"](../{cover_rel})\n' if os.path.exists(cover_abs) else ""
-       cover_file = f'../../{cover_rel}' if os.path.exists(cover_abs) else ""
+       cover_file = f'\"../../{cover_rel}\"' if os.path.exists(cover_abs) else '\"../../'+covername+'.jpg\"'
 
        #Escritor de chip para la página de ficha
        def chip(label, val, emoji):

@@ -6,7 +6,7 @@ tags: [Papirhos, Notas, 2017]
 # Teoría de singularidades en topología, geometría y foliaciones
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Notas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2017</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
-<p align = "left"> <img src = ../../assets/covers/pap-not-1.jpeg width="500" height="600"></p>
+<p align = "left"> <img src = "../../assets/covers/pap-not-1.jpg" width="500" height="600"></p>
 
 ## Resumen
 PRUEBA
