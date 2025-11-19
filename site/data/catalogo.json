@@ -3,7 +3,71 @@
     "id": "pap-not-1",
     "titulo": "Teoría de singularidades en topología, geometría y foliaciones",
     "autores": [
-      "Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky"
+      [
+        [
+          "Jean-Paul"
+        ],
+        [
+          "Brasselet"
+        ]
+      ],
+      [
+        [
+          "Felipe"
+        ],
+        [
+          "Cano"
+        ]
+      ],
+      [
+        [
+          "Dominique"
+        ],
+        [
+          "Cerveau"
+        ]
+      ],
+      [
+        [
+          "Dung",
+          "Tráng"
+        ],
+        [
+          "Lê"
+        ]
+      ],
+      [
+        [
+          "Frank"
+        ],
+        [
+          "Loray"
+        ]
+      ],
+      [
+        [
+          "Mutsuo"
+        ],
+        [
+          "Oka"
+        ]
+      ],
+      [
+        [
+          "José"
+        ],
+        [
+          "Seade"
+        ]
+      ],
+      [
+        [
+          "Mark"
+        ],
+        [
+          "Spivakovsky"
+        ]
+      ]
     ],
     "coleccion": "Papirhos",
     "serie": "Notas",
@@ -19,7 +83,16 @@
     "id": "cuad-x-1",
     "titulo": "Combinatoria",
     "autores": [
-      "Maria Luisa Pérez Seguí"
+      [
+        [
+          "Maria",
+          "Luisa"
+        ],
+        [
+          "Pérez",
+          "Seguí"
+        ]
+      ]
     ],
     "coleccion": "Cuadernos de olimpiadas de matemáticas",
     "serie": "",
@@ -35,7 +108,22 @@
     "id": "pap-tex-6",
     "titulo": "Curso introductorio de álgebra I",
     "autores": [
-      "Diana Avella, Gabriela Campero"
+      [
+        [
+          "Diana"
+        ],
+        [
+          "Avella"
+        ]
+      ],
+      [
+        [
+          "Gabriela"
+        ],
+        [
+          "Campero"
+        ]
+      ]
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
@@ -51,7 +139,34 @@
     "id": "pap-tex-10",
     "titulo": "Curso introductorio de álgebra II",
     "autores": [
-      "Diana Avella Alaminos, Gabriela Campero Arena, Edith Corina Sáenz Valadez"
+      [
+        [
+          "Diana"
+        ],
+        [
+          "Avella",
+          "Alaminos"
+        ]
+      ],
+      [
+        [
+          "Gabriela"
+        ],
+        [
+          "Campero",
+          "Arena"
+        ]
+      ],
+      [
+        [
+          "Edith",
+          "Corina"
+        ],
+        [
+          "Sáenz",
+          "Valadez"
+        ]
+      ]
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
@@ -67,7 +182,40 @@
     "id": "pap-tex-1",
     "titulo": "Grupos I",
     "autores": [
-      "Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto"
+      [
+        [
+          "Diana"
+        ],
+        [
+          "Avella"
+        ]
+      ],
+      [
+        [
+          "Octavio"
+        ],
+        [
+          "Mendoza"
+        ]
+      ],
+      [
+        [
+          "Edith",
+          "Corina"
+        ],
+        [
+          "Sáenz"
+        ]
+      ],
+      [
+        [
+          "María",
+          "José"
+        ],
+        [
+          "Souto"
+        ]
+      ]
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
@@ -83,7 +231,40 @@
     "id": "pap-tex-4",
     "titulo": "Grupos II",
     "autores": [
-      "Diana Avella, Octavio Mendoza, Edith Corina Sáenz, María José Souto"
+      [
+        [
+          "Diana"
+        ],
+        [
+          "Avella"
+        ]
+      ],
+      [
+        [
+          "Octavio"
+        ],
+        [
+          "Mendoza"
+        ]
+      ],
+      [
+        [
+          "Edith",
+          "Corina"
+        ],
+        [
+          "Sáenz"
+        ]
+      ],
+      [
+        [
+          "María",
+          "José"
+        ],
+        [
+          "Souto"
+        ]
+      ]
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
