@@ -1,0 +1,12 @@
+autores.csv
+Dado un autor NOMBRE APELLIDO, su id es NEAO (letras inicial y final del nombre y del apellido). 
+Si tiene más de un nombre o apellido, se toma el primero escrito de cada uno.
+
+
+resumenes.csv
+El id corresponde al id del libro. 
+
+coleccion-serie-numserie
+Si no hay serie, se pone una x
+Por ejemplo: Curso introductorio de álgebra I es: Papirhos, Textos, 6. id = pap-tex-6
+Olimpiadas en SLP Elemental es: Cuadernos de olimpiadas de matemáticas, no hay serie, número 7. id= cuad-x-7
