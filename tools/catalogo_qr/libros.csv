@@ -1,0 +1,7 @@
+id,titulo,coleccion,serie,num_serie,isbn_col,isbn_libro,tomo,anio,editorial,edicion,estado
+pap-not-1,"Teoría de singularidades en topología, geometría y foliaciones",Papirhos,"Notas",1,978-607-02-5149-8,978-607-02-9845-5,,2017,"Instituto de Matemáticas, UNAM",1,"Publicado"
+cuad-x-1,"Combinatoria","Cuadernos de olimpiadas de matemáticas",,1,978-968-36-8599-5,978-607-02-85882,,2018,"Instituto de Matemáticas, UNAM",2,"Publicado"
+pap-tex-6,"Curso introductorio de álgebra I","Papirhos","Textos",6,978-607-02-5149-8,978-607-02-8824-1,1,2017,"Instituto de Matemáticas, UNAM",1,"Publicado"
+pap-tex-10,"Curso introductorio de álgebra II","Papirhos","Textos",10,978-607-02-5149-8,978-607-30-3681-8,2,2020,"Instituto de Matemáticas, UNAM",1,"Publicado"
+pap-tex-1,"Grupos I","Papirhos","Textos",1,978-607-02-9375-7,978-607-02-9435-8,1,2014,"Instituto de Matemáticas, UNAM",3,"Publicado"
+pap-tex-4,"Grupos II","Papirhos","Textos",4,978-607-02-5149-8,978-607-02-7814-3,2,2016,"Instituto de Matemáticas, UNAM",1,"Publicado"
