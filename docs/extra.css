@@ -55,13 +55,97 @@ body{
     font-size:.82rem;
 }
 
+
+/* Banner tipo anuncio del encabezado */
 .md-banner {
   background-color: #303030; /* Example: use primary theme color */
+  height: 120px;
+  line-height: 120px;
   font-size: 0.9em;
-  padding: 10px 20px;
-  text-align: center;
+  max-width: initial;
+  /* width: inherit; */
+  /* padding: 0 20px; */
+  /* text-align: center; */
   /* Add other styles as needed */
 }
+
+#encabezado {
+  /* background-color: rgb(145, 47, 47); */
+  height: 120px;
+  line-height: 120px;
+  /* padding: 0 3rem; */
+  position: absolute;
+  max-width: initial;
+  width: 80%;
+  top: 0px;
+  /* margin: auto; */
+  /* z-index: 1000; */
+}
+
+#encabezado > div#logoizq {
+  height: 100px;
+  width: 89px;
+  display: block;
+  position: absolute;
+  /* left: 2rem; */
+  /* background-color: coral; */
+  background-image: url("assets/logos/unam-silver.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#encabezado > div#logoizq:hover {
+  background-image: url("assets/logos/unam-gold.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#encabezado > div#logomid {
+  height: 81px;
+  width: 337px;
+  display: block;
+  position: relative;
+  margin: auto;
+  /* background-color: coral; */
+  background-image: url("assets/logos/logo-texedores.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#encabezado > div#logoder {
+  height: 90px;
+  width: 216px;
+  display: block;
+  position: absolute;
+  right: 0;
+  /* background-color: coral; */
+  background-image: url("assets/logos/im-cropped.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#encabezado > div#logoder:hover {
+  background-image: url("assets/logos/im-cropped-H.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Parte responsiva */
 
 @media (min-width: 820px) {
     #resultados {
@@ -113,7 +197,7 @@ details > summary { cursor: pointer;
     /* padding: 1rem 0;
     border-top: 1px solid var(--md-default-fg-color-lightest);
     background: var(--md-default-bg-color); */
-    background-color: #505050;
+    background-color: #303030;
 }
 
 .site-footer .footer-inner{
