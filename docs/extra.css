@@ -58,22 +58,14 @@ body{
 
 /* Banner tipo anuncio del encabezado */
 .md-banner {
-  background-color: #303030; /* Example: use primary theme color */
-  height: 120px;
-  line-height: 120px;
+  background-color: #303030;
+
   font-size: 0.9em;
   max-width: initial;
-  /* width: inherit; */
-  /* padding: 0 20px; */
-  /* text-align: center; */
-  /* Add other styles as needed */
+
 }
 
 #encabezado {
-  /* background-color: rgb(145, 47, 47); */
-  height: 120px;
-  line-height: 120px;
-  /* padding: 0 3rem; */
   position: absolute;
   max-width: initial;
   width: 80%;
@@ -147,7 +139,28 @@ body{
 
 /* Parte responsiva */
 
-@media (min-width: 820px) {
+@media (min-width: 769px) {
+  .md-banner {
+    height: 100px;
+    line-height: 100px;
+  }
+  #encabezado{
+    height: 100px;
+    line-height: 100px;
+    width: 90%;
+  }
+  #encabezado > div#logoizq {
+    height: 80px;
+    width: 71px;
+  }
+  #encabezado > div#logomid {
+    height: 70px;
+    width: 291px;
+  }
+  #encabezado > div#logoder {
+    height: 70px;
+    width: 168px;
+  }
     #resultados {
         display:grid;
         grid-template-columns: repeat(2, 1fr);
@@ -157,13 +170,35 @@ body{
         margin: 0;
     }
 }
+
 @media (min-width: 1200px) {
-        #resultados {
-            display:grid;
-            grid-template-columns:
-            repeat(3, 1fr);
-        }
-    }
+  .md-banner {
+    height: 120px;
+    line-height: 120px;
+  }
+  #encabezado{
+    height: 120px;
+    line-height: 120px;
+    width: 80%;
+  }
+  #encabezado > div#logoizq {
+    height: 100px;
+    width: 89px;
+  }
+  #encabezado > div#logomid {
+    height: 81px;
+    width: 337px;
+  }
+  #encabezado > div#logoder {
+    height: 90px;
+    width: 216px;
+  }    
+  #resultados {
+      display:grid;
+      grid-template-columns:
+      repeat(3, 1fr);
+  }
+}
 .chips {
     display:flex;
     gap:.4rem;
@@ -192,26 +227,8 @@ details > summary { cursor: pointer;
 
 .hidden{display: none !important;}
 
-.site-footer{
-    /* margin-top: 1.5rem; */
-    /* padding: 1rem 0;
-    border-top: 1px solid var(--md-default-fg-color-lightest);
-    background: var(--md-default-bg-color); */
-    background-color: #303030;
-}
 
-.site-footer .footer-inner{
-    /* max-width: 64rem; */
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 1 rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-
-}
-
-@media (max-width: 767px){
+@media (max-width: 768px){
 
     .site-footer{
         /* padding: .5rem 0; */
@@ -250,7 +267,7 @@ details > summary { cursor: pointer;
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 769px){
     .footer-brand{
         background-color: #505050;
         flex-direction: row;
