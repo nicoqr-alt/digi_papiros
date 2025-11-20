@@ -1,0 +1,7 @@
+id,titulo,autores,coleccion,serie,num_serie,isbn_col,isbn_libro,tomo,anio,editorial,edicion,resumen,estado
+pap-not-1,"Teoría de singularidades en topología, geometría y foliaciones","Jean-Paul>Brasselet, Felipe>Cano, Dominique>Cerveau, Dung Tráng>Lê, Frank>Loray, Mutsuo>Oka, José>Seade, Mark>Spivakovsky",Papirhos,"Notas",1,978-607-02-5149-8,978-607-02-9845-5,,2017,"Instituto de Matemáticas, UNAM",1,PRUEBA,"Publicado"
+cuad-x-1,"Combinatoria","Maria Luisa>Pérez Seguí","Cuadernos de olimpiadas de matemáticas",,1,978-968-36-8599-5,978-607-02-85882,,2018,"Instituto de Matemáticas, UNAM",2,,"Publicado"
+pap-tex-6,"Curso introductorio de álgebra I","Diana>Avella, Gabriela>Campero","Papirhos","Textos",6,978-607-02-5149-8,978-607-02-8824-1,1,2017,"Instituto de Matemáticas, UNAM",1,,"Publicado"
+pap-tex-10,"Curso introductorio de álgebra II","Diana>Avella Alaminos, Gabriela>Campero Arena, Edith Corina>Sáenz Valadez","Papirhos","Textos",10,978-607-02-5149-8,978-607-30-3681-8,2,2020,"Instituto de Matemáticas, UNAM",1,,"Publicado"
+pap-tex-1,"Grupos I","Diana>Avella, Octavio>Mendoza, Edith Corina>Sáenz, María José>Souto","Papirhos","Textos",1,978-607-02-9375-7,978-607-02-9435-8,1,2014,"Instituto de Matemáticas, UNAM",3,,"Publicado"
+pap-tex-4,"Grupos II","Diana>Avella, Octavio>Mendoza, Edith Corina>Sáenz, María José>Souto","Papirhos","Textos",4,978-607-02-5149-8,978-607-02-7814-3,2,2016,"Instituto de Matemáticas, UNAM",1,,"Publicado"

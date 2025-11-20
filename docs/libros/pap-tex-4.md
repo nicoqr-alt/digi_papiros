@@ -1,6 +1,6 @@
 ---
 title: "Grupos II"
-authors: [[['Diana'], ['Avella']], [['Octavio'], ['Mendoza']], [['Edith', 'Corina'], ['Sáenz']], [['María', 'José'], ['Souto']]]
+authors: [[['Diana'], ['Avella']], [['Octavio'], ['Mendoza']], [['Edith', 'Corina'], ['Saenz', 'Valadez']], [['María', 'José'], ['Souto']]]
 tags: [Papirhos, Textos, 2016]
 ---
 # Grupos II
@@ -9,24 +9,24 @@ tags: [Papirhos, Textos, 2016]
 <p align = "left"> <img src = "../../assets/covers/pap-tex-4.jpg" width="500" height="600"></p>
 
 ## Resumen
-proximamente
+Resuemn 6
 
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana Avella, Octavio Mendoza, Edith, Corina Sáenz, María, José Souto | 
+| **Autores** | Diana Avella, Octavio Mendoza, Edith, Corina Saenz, Valadez, María, José Souto | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
-| **Tomo** | 2 | 
+| **Tomo** | 2.0 | 
 | **Año** | 2016 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
 | **Edición** | 1 | 
-| **ISBN (Colección)** | 978-607-02-5149-8 |
+| **ISBN (Colección)** | 978-607-02-5149-8 | 
+| **ISBN (Texto)** | 978-607-02-7814-3 |
 
 ## Descargas
-<p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
-<a class="md-button require-auth data-book-id=pap-tex-4 download-link" data-book-id="pap-tex-4" href = "pap-tex-4_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
-<a class="md-button require-auth data-book-id=pap-tex-4 download-link" data-book-id="pap-tex-4" href ="pap-tex-4_mark.pdf" download> Descargar</a>
+<a class="md-button data-book-id=pap-tex-4 download-link" data-book-id="pap-tex-4" href = "pap-tex-4_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button  data-book-id=pap-tex-4 download-link" data-book-id="pap-tex-4" href ="pap-tex-4_mark.pdf" download> Descargar</a>
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "pap-tex-4_mark.pdf" type="application/pdf" width="100%" height="700" >
@@ -38,11 +38,11 @@ proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Octavio Mendoza, Edith, Corina Sáenz, María, José Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
+> Diana Avella, Octavio Mendoza, Edith, Corina Saenz, Valadez, María, José Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-tex-4, <br>title = {Grupos II}, <br>author = {Avella, Diana and Mendoza, Octavio and Sáenz, Edith and Souto, María}, <br>year = {2016}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-4, <br>title = {Grupos II}, <br>author = {Avella, Diana and Mendoza, Octavio and Saenz, Edith and Souto, María}, <br>year = {2016}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

@@ -9,7 +9,7 @@ tags: [Papirhos, Textos, 2017]
 <p align = "left"> <img src = "../../assets/covers/pap-tex-6.jpg" width="500" height="600"></p>
 
 ## Resumen
-proximamente
+Resumen 3
 
 ## Metadatos
 |  |  |
@@ -17,16 +17,16 @@ proximamente
 | **Autores** | Diana Avella, Gabriela Campero | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
-| **Tomo** | 1 | 
+| **Tomo** | 1.0 | 
 | **Año** | 2017 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
 | **Edición** | 1 | 
-| **ISBN (Colección)** | 978-607-02-5149-8 |
+| **ISBN (Colección)** | 978-607-02-5149-8 | 
+| **ISBN (Texto)** | 978-607-02-8824-1 |
 
 ## Descargas
-<p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
-<a class="md-button require-auth data-book-id=pap-tex-6 download-link" data-book-id="pap-tex-6" href = "pap-tex-6_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
-<a class="md-button require-auth data-book-id=pap-tex-6 download-link" data-book-id="pap-tex-6" href ="pap-tex-6_mark.pdf" download> Descargar</a>
+<a class="md-button data-book-id=pap-tex-6 download-link" data-book-id="pap-tex-6" href = "pap-tex-6_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button  data-book-id=pap-tex-6 download-link" data-book-id="pap-tex-6" href ="pap-tex-6_mark.pdf" download> Descargar</a>
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "pap-tex-6_mark.pdf" type="application/pdf" width="100%" height="700" >

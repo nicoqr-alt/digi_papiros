@@ -11,7 +11,7 @@ AUTORES_LIBROS_CSV = os.path.join(BASE, "catalogo_qr", "libros_autores.csv")
 RESUMENES_CSV      = os.path.join(BASE, "catalogo_qr", "resumenes.csv")
 LIBROS_CSV         = os.path.join(BASE, "catalogo_qr", "libros.csv")
 
-SALIDA_CSV         = "catalogo_final.csv"
+SALIDA_CSV         = "catalogo.csv"
 
 # Separador entre autores en la celda final (puedes cambiarlo si tu script espera otro)
 SEPARADOR_ENTRE_AUTORES = "; "

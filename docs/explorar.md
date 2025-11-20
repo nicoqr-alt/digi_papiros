@@ -19,6 +19,7 @@
 
 <div id="resultados"></div>
 <script>
+
     (async function() {
     const { origin, hostname, pathname} = window.location;
     <!-- El cálculo de la base se hace de dos formas, una para ver si estamos en deployment o si estamos trabajando con MKDCOS -->
@@ -54,6 +55,7 @@
         <h3><a href="${BASE}/libros/${x.id}/"> <b>${x.titulo}</b> <br>
             <small class="meta"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</small>
             <p>${[x.coleccion ? `Colección: ${x.coleccion}` : '', x.serie ? `Serie: ${x.serie}` : '', x.anio ? `Año: ${x.anio}` : ''].filter(Boolean).join(' | ')}</p>
+            <img src="${BASE}/assets/covers/${x.id}.png" alt="Portada">
         </div>
         `).join('');
     }

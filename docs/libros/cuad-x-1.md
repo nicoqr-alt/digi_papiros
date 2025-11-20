@@ -9,7 +9,7 @@ tags: [Cuadernos de olimpiadas de matemáticas, 2018]
 <p align = "left"> <img src = "../../assets/covers/cuad-x-1.png" width="500" height="600"></p>
 
 ## Resumen
-proximamente
+Resumen 2
 
 ## Metadatos
 |  |  |
@@ -19,12 +19,12 @@ proximamente
 | **Año** | 2018 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
 | **Edición** | 2 | 
-| **ISBN (Colección)** | 978-968-36-8599-5 |
+| **ISBN (Colección)** | 978-968-36-8599-5 | 
+| **ISBN (Texto)** | 978-607-02-85882 |
 
 ## Descargas
-<p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
-<a class="md-button require-auth data-book-id=cuad-x-1 download-link" data-book-id="cuad-x-1" href = "cuad-x-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
-<a class="md-button require-auth data-book-id=cuad-x-1 download-link" data-book-id="cuad-x-1" href ="cuad-x-1_mark.pdf" download> Descargar</a>
+<a class="md-button data-book-id=cuad-x-1 download-link" data-book-id="cuad-x-1" href = "cuad-x-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button  data-book-id=cuad-x-1 download-link" data-book-id="cuad-x-1" href ="cuad-x-1_mark.pdf" download> Descargar</a>
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "cuad-x-1_mark.pdf" type="application/pdf" width="100%" height="700" >

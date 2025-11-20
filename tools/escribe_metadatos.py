@@ -17,6 +17,6 @@ def escribe_metadatos(autores, coleccion, serie, tomo, anio, editorial, edicion,
                 + opt("Editorial", editorial)
                 + opt("Edición", edicion)
                 + opt("ISBN (Colección)", isbn_col)
-                + opt("ISBN (Libro)", isbn_libro)
+                + opt("ISBN (Texto)", isbn_libro)
                 ).rstrip()
 

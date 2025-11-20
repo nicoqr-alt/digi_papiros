@@ -9,7 +9,7 @@ tags: [Papirhos, Notas, 2017]
 <p align = "left"> <img src = "../../assets/covers/pap-not-1.jpg" width="500" height="600"></p>
 
 ## Resumen
-PRUEBA
+Resumen 1
 
 ## Metadatos
 |  |  |
@@ -20,12 +20,12 @@ PRUEBA
 | **Año** | 2017 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
 | **Edición** | 1 | 
-| **ISBN (Colección)** | 978-607-02-5149-8 |
+| **ISBN (Colección)** | 978-607-02-5149-8 | 
+| **ISBN (Texto)** | 978-607-02-9845-5 |
 
 ## Descargas
-<p>Para poder descargar el archivo o mostrar en el explorador necesitas crear una cuenta e iniciar sesión.</p>
-<a class="md-button require-auth data-book-id=pap-not-1 download-link" data-book-id="pap-not-1" href = "pap-not-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
-<a class="md-button require-auth data-book-id=pap-not-1 download-link" data-book-id="pap-not-1" href ="pap-not-1_mark.pdf" download> Descargar</a>
+<a class="md-button data-book-id=pap-not-1 download-link" data-book-id="pap-not-1" href = "pap-not-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
+<a class="md-button  data-book-id=pap-not-1 download-link" data-book-id="pap-not-1" href ="pap-not-1_mark.pdf" download> Descargar</a>
 <details>
 <summary> Ver en línea (vista previa)</summary>
 <object data = "pap-not-1_mark.pdf" type="application/pdf" width="100%" height="700" >

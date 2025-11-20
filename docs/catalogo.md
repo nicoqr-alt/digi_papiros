@@ -1,8 +1,8 @@
 #Catálogo
 
-- **[Curso introductorio de álgebra II](libros/pap-tex-10.md)** Papirhos Textos - Publicado
-
 - **[Curso introductorio de álgebra I](libros/pap-tex-6.md)** Papirhos Textos - Publicado
+
+- **[Curso introductorio, de álgebra II](libros/pap-tex-10.md)** Papirhos Textos - Publicado
 
 - **[Grupos I](libros/pap-tex-1.md)** Papirhos Textos - Publicado
 

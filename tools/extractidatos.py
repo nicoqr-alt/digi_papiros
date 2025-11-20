@@ -20,5 +20,5 @@ def extractidatos(r):
     parte_nombres()
     #Codigo original: da una lista de autores (n>ap) separados por comas
     #return [a.strip() for a in g("autores").split(",") if a.strip()], g("anio"), g("id"), g("titulo"), g("coleccion"), g("serie"), g("tomo"), g("editorial"), g("edicion"), g("isbn_col", "isbn_coleccion"), g("isbn:libro"), g("estado", default = "por_recibir"), g("resumen", default = "proximamente"), bloque_pdf(g("id"))
-    return parte_nombres(), g("anio"), g("id"), g("titulo"), g("coleccion"), g("serie"), g("tomo"), g("editorial"), g("edicion"), g("isbn_col", "isbn_coleccion"), g("isbn:libro"), g("estado", default = "por_recibir"), g("resumen", default = "proximamente"), bloque_pdf(g("id"))
+    return parte_nombres(), g("anio"), g("id"), g("titulo"), g("coleccion"), g("serie"), g("tomo"), g("editorial"), g("edicion"), g("isbn_col", "isbn_coleccion"), g("isbn_libro"), g("estado", default = "por_recibir"), g("resumen", default = "proximamente"), bloque_pdf(g("id"))
       

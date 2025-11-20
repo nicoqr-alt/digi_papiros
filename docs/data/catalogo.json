@@ -76,7 +76,7 @@
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "1",
     "isbn_col": "978-607-02-5149-8",
-    "isbn_libro": "",
+    "isbn_libro": "978-607-02-9845-5",
     "estado": "Publicado"
   },
   {
@@ -101,7 +101,7 @@
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "2",
     "isbn_col": "978-968-36-8599-5",
-    "isbn_libro": "",
+    "isbn_libro": "978-607-02-85882",
     "estado": "Publicado"
   },
   {
@@ -127,25 +127,24 @@
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
-    "tomo": "1",
+    "tomo": "1.0",
     "anio": "2017",
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "1",
     "isbn_col": "978-607-02-5149-8",
-    "isbn_libro": "",
+    "isbn_libro": "978-607-02-8824-1",
     "estado": "Publicado"
   },
   {
     "id": "pap-tex-10",
-    "titulo": "Curso introductorio de álgebra II",
+    "titulo": "Curso introductorio, de álgebra II",
     "autores": [
       [
         [
           "Diana"
         ],
         [
-          "Avella",
-          "Alaminos"
+          "Avella"
         ]
       ],
       [
@@ -153,8 +152,7 @@
           "Gabriela"
         ],
         [
-          "Campero",
-          "Arena"
+          "Campero"
         ]
       ],
       [
@@ -163,19 +161,19 @@
           "Corina"
         ],
         [
-          "Sáenz",
+          "Saenz",
           "Valadez"
         ]
       ]
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
-    "tomo": "2",
+    "tomo": "2.0",
     "anio": "2020",
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "1",
     "isbn_col": "978-607-02-5149-8",
-    "isbn_libro": "",
+    "isbn_libro": "978-607-30-3681-8",
     "estado": "Publicado"
   },
   {
@@ -204,7 +202,8 @@
           "Corina"
         ],
         [
-          "Sáenz"
+          "Saenz",
+          "Valadez"
         ]
       ],
       [
@@ -219,12 +218,12 @@
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
-    "tomo": "1",
+    "tomo": "1.0",
     "anio": "2014",
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "3",
     "isbn_col": "978-607-02-9375-7",
-    "isbn_libro": "",
+    "isbn_libro": "978-607-02-9435-8",
     "estado": "Publicado"
   },
   {
@@ -253,7 +252,8 @@
           "Corina"
         ],
         [
-          "Sáenz"
+          "Saenz",
+          "Valadez"
         ]
       ],
       [
@@ -268,12 +268,12 @@
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
-    "tomo": "2",
+    "tomo": "2.0",
     "anio": "2016",
     "editorial": "Instituto de Matemáticas, UNAM",
     "edicion": "1",
     "isbn_col": "978-607-02-5149-8",
-    "isbn_libro": "",
+    "isbn_libro": "978-607-02-7814-3",
     "estado": "Publicado"
   }
 ]
