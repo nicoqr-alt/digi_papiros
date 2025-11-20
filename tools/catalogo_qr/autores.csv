@@ -1,4 +1,4 @@
-id_ath,nombres,apellidos
+id_autor,nombres,apellidos
 jlbt,Jean-Paul,Brasselet
 feco,Felipe,Cano
 decu,Dominique,Cerveau
@@ -8,8 +8,8 @@ mooa,Mutsuo,Oka
 jese,José,Seade
 mksy,Mark,Spivakovsky
 mapz,Maria Luisa,Pérez Seguí
-daaa,Diana,Avella,
+daaa,"Diana","Avella"
 gaco,Gabriela,Campero
 ehsz,Edith Corina,Saenz Valadez
-ooma,Octavio,Mendoza,
+ooma,Octavio,Mendoza
 maso,María José,Souto
