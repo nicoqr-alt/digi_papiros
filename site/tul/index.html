@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../explorar/">
+        <link rel="prev" href="../acerca/">
       
-      
-        <link rel="next" href="../acerca/">
       
       
       <link rel="icon" href="../assets/favicon.svg">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Estadísticas - IMbeta</title>
+        <title>TUL - IMbeta</title>
       
     
     
@@ -74,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#estadisticas-de-descargas" class="md-skip">
+        <a href="#toda-la-unam-en-linea" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -129,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Estadísticas
+              TUL
             
           </span>
         </div>
@@ -305,6 +303,28 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../acerca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Acerca de
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -322,7 +342,7 @@
   
   
   <span class="md-ellipsis">
-    Estadísticas
+    TUL
     
   </span>
   
@@ -335,7 +355,7 @@
   
   
   <span class="md-ellipsis">
-    Estadísticas
+    TUL
     
   </span>
   
@@ -358,9 +378,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#top-libros" class="md-nav__link">
+  <a href="#acerca-del-programa" class="md-nav__link">
     <span class="md-ellipsis">
-      Top libros
+      Acerca del programa
     </span>
   </a>
   
@@ -370,28 +390,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../acerca/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Acerca de
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -423,9 +421,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#top-libros" class="md-nav__link">
+  <a href="#acerca-del-programa" class="md-nav__link">
     <span class="md-ellipsis">
-      Top libros
+      Acerca del programa
     </span>
   </a>
   
@@ -447,52 +445,11 @@
 
 
 
-<h1 id="estadisticas-de-descargas">Estadisticas de descargas</h1>
-<blockquote>
-<p>Esta página mostrará los conteos por libro</p>
-</blockquote>
-<h2 id="top-libros">Top libros</h2>
-<table id = "top-books" class = "md-typeset">
-    <thead>
-        <tr>
-            <th> Título </th>
-            <th>Descargas (total) </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><td colspan = "2" style = "opacity: .7"> Aún sin datos (falta conectar a SupaBase) </td></tr>
-    </tbody>
-</table>
-
-<script>
-function renderStats() {
-  const tbody = document.querySelector('#top-books tbody');
-  if (!tbody) return;
-
-  // evitar doble ejecución
-  if (tbody.dataset.bound === '1') return;
-  tbody.dataset.bound = '1';
-
-  tbody.innerHTML = `<tr><td colspan="2" style="opacity:.7">Cargando…</td></tr>`;
-
-  fetch('/data/catalogo.json').then(r=> r.json()).catch(()=> []).then(catalogo => {
-    const titleById = Object.fromEntries((catalogo || []).map(b=> [b.id, b.titulo || b.title || b.nombre || b.id])); 
-    return sb.from('v_downloads_by_book').select('book_id, total').order('total', {ascending : false}).limit(50).then(({data, error})=> {if (error) throw error; if (!data || data.length ===0){tbody.innerHTML = `<tr><td colspan="2" style="opacity:.7">Sin datos aún</td></tr>`; return;
-
-    } 
-    tbody.innerHTML = data.map(r => {const titulo = titleById[r.book_id] ?? r.book_id; return `<tr><td>${titulo}</td><td>${r.total}</td></tr>`;}).join('');});
-  }).catch(e=> {console.error(e); tbody.innerHTML = `<tr><td colspan="2" style="color:#c00;">Error al cargar datos</td></tr>`;
-        return;});
-}
-
-// 1) Ejecutar cuando cargue todo el sitio
-window.addEventListener('load', renderStats);
-
-// 2) Ejecutar también en cada navegación interna de MkDocs Material
-if (window.document$ && window.document$.subscribe) {
-  window.document$.subscribe(renderStats);
-}
-</script>
+<h1 id="toda-la-unam-en-linea">Toda la UNAM en línea</h1>
+<h2 id="acerca-del-programa">Acerca del programa</h2>
+<p><a href="https://www.unamenlinea.unam.mx/">Toda la UNAM en línea</a> es un programa permanente de la Universidad a través del cual se propone dar plenas condiciones de acceso tanto al conocimiento generado por la institución, como a sus acervos culturales y servicios.</p>
+<p>La iniciativa es una expresión de nuestra vocación social y del compromiso que se ha asumido para extender los productos universitarios a la sociedad en su conjunto.</p>
+<p><a href="https://www.unamenlinea.unam.mx/">Toda la UNAM en línea</a> es la política de acceso abierto de la Universidad.</p>
 
 
 

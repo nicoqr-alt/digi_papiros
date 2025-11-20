@@ -12,7 +12,7 @@
         <link rel="prev" href="../catalogo/">
       
       
-        <link rel="next" href="../estadisticas/">
+        <link rel="next" href="../acerca/">
       
       
       <link rel="icon" href="../assets/favicon.svg">
@@ -311,12 +311,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../estadisticas/" class="md-nav__link">
+      <a href="../acerca/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Estadísticas
+    Acerca de
     
   </span>
   
@@ -333,12 +333,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../acerca/" class="md-nav__link">
+      <a href="../tul/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Acerca de
+    TUL
     
   </span>
   
@@ -403,6 +403,7 @@
 
 <div id="resultados"></div>
 <script>
+
     (async function() {
     const { origin, hostname, pathname} = window.location;
     <!-- El cálculo de la base se hace de dos formas, una para ver si estamos en deployment o si estamos trabajando con MKDCOS -->
@@ -438,6 +439,7 @@
         <h3><a href="${BASE}/libros/${x.id}/"> <b>${x.titulo}</b> <br>
             <small class="meta"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</small>
             <p>${[x.coleccion ? `Colección: ${x.coleccion}` : '', x.serie ? `Serie: ${x.serie}` : '', x.anio ? `Año: ${x.anio}` : ''].filter(Boolean).join(' | ')}</p>
+            <img src="${BASE}/assets/covers/${x.id}.png" alt="Portada">
         </div>
         `).join('');
     }
