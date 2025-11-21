@@ -13,7 +13,8 @@ theme:
     primary: custom
     accent: custom
 extra_css:
- - extra.css
+ - stylesheets/extra.css
+ - stylesheets/media.css
 extra:
  current_year: 2025
 nav:
