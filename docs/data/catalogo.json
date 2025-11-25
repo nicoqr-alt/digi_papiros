@@ -1,7 +1,7 @@
 [
   {
     "id": "pap-not-1",
-    "titulo": "Teoría de singularidades en topología, geometría y foliaciones",
+    "titulo": "Teoría de singularidades en topología, geometría y foliaciones I",
     "autores": [
       [
         [
@@ -72,9 +72,89 @@
     "coleccion": "Papirhos",
     "serie": "Notas",
     "tomo": "",
-    "anio": "2017",
+    "anio": "2017.0",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": "1.0",
+    "isbn_col": "978-607-02-5149-8",
+    "isbn_libro": "978-607-02-9845-5",
+    "estado": "Publicado"
+  },
+  {
+    "id": "pap-not-1",
+    "titulo": "Teoría de singularidades en topología, geometría y foliaciones I",
+    "autores": [
+      [
+        [
+          "Jean-Paul"
+        ],
+        [
+          "Brasselet"
+        ]
+      ],
+      [
+        [
+          "Felipe"
+        ],
+        [
+          "Cano"
+        ]
+      ],
+      [
+        [
+          "Dominique"
+        ],
+        [
+          "Cerveau"
+        ]
+      ],
+      [
+        [
+          "Dung",
+          "Tráng"
+        ],
+        [
+          "Lê"
+        ]
+      ],
+      [
+        [
+          "Frank"
+        ],
+        [
+          "Loray"
+        ]
+      ],
+      [
+        [
+          "Mutsuo"
+        ],
+        [
+          "Oka"
+        ]
+      ],
+      [
+        [
+          "José"
+        ],
+        [
+          "Seade"
+        ]
+      ],
+      [
+        [
+          "Mark"
+        ],
+        [
+          "Spivakovsky"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Notas",
+    "tomo": "",
+    "anio": "2017.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "1.0",
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "978-607-02-9845-5",
     "estado": "Publicado"
@@ -97,9 +177,9 @@
     "coleccion": "Cuadernos de olimpiadas de matemáticas",
     "serie": "",
     "tomo": "",
-    "anio": "2018",
+    "anio": "2018.0",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "2",
+    "edicion": "2.0",
     "isbn_col": "978-968-36-8599-5",
     "isbn_libro": "978-607-02-85882",
     "estado": "Publicado"
@@ -128,9 +208,9 @@
     "coleccion": "Papirhos",
     "serie": "Textos",
     "tomo": "1.0",
-    "anio": "2017",
+    "anio": "2017.0",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": "1.0",
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "978-607-02-8824-1",
     "estado": "Publicado"
@@ -169,9 +249,9 @@
     "coleccion": "Papirhos",
     "serie": "Textos",
     "tomo": "2.0",
-    "anio": "2020",
+    "anio": "2020.0",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": "1.0",
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "978-607-30-3681-8",
     "estado": "Publicado"
@@ -219,9 +299,9 @@
     "coleccion": "Papirhos",
     "serie": "Textos",
     "tomo": "1.0",
-    "anio": "2014",
+    "anio": "2014.0",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "3",
+    "edicion": "3.0",
     "isbn_col": "978-607-02-9375-7",
     "isbn_libro": "978-607-02-9435-8",
     "estado": "Publicado"
@@ -269,11 +349,457 @@
     "coleccion": "Papirhos",
     "serie": "Textos",
     "tomo": "2.0",
-    "anio": "2016",
+    "anio": "2016.0",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
+    "edicion": "1.0",
     "isbn_col": "978-607-02-5149-8",
     "isbn_libro": "978-607-02-7814-3",
     "estado": "Publicado"
+  },
+  {
+    "id": "pap-mix-1",
+    "titulo": "Por la senda de los círculos",
+    "autores": [
+      [
+        [
+          "Cecilia"
+        ],
+        [
+          "Neve",
+          "Jimenez"
+        ]
+      ],
+      [
+        [
+          "Laura"
+        ],
+        [
+          "Rosales",
+          "Ortiz"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Mixbaal",
+    "tomo": "",
+    "anio": "",
+    "editorial": "",
+    "edicion": "",
+    "isbn_col": "",
+    "isbn_libro": "",
+    "estado": "por_recibir"
+  },
+  {
+    "id": "pap-ico-3",
+    "titulo": "Concursos Nacionales de la Olimpiada Mexicana de Matemáticas:1987-2016",
+    "autores": [
+      [
+        [
+          "Jose",
+          "Antonio"
+        ],
+        [
+          "Gómez",
+          "Ortega"
+        ]
+      ],
+      [
+        [
+          "Carlos",
+          "Jacob"
+        ],
+        [
+          "Rubio",
+          "Barrios"
+        ]
+      ],
+      [
+        [
+          "Rogelio"
+        ],
+        [
+          "Valdez",
+          "Delgado"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Icosaedro",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-2",
+    "titulo": "Análisis Matemático",
+    "autores": [
+      [
+        [
+          "Mónica"
+        ],
+        [
+          "Clapp"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-3",
+    "titulo": "Topología Diferencial",
+    "autores": [
+      [
+        [
+          "Victor"
+        ],
+        [
+          "Guillemin"
+        ]
+      ],
+      [
+        [
+          "Allan"
+        ],
+        [
+          "Pollack"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-5",
+    "titulo": "Geometría euclidiana bidimensional y su grupo de transformaciones",
+    "autores": [
+      [
+        [
+          "Manuel"
+        ],
+        [
+          "Cruz"
+        ]
+      ],
+      [
+        [
+          "Montserrat"
+        ],
+        [
+          "García"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-7",
+    "titulo": "Clases características",
+    "autores": [
+      [
+        [
+          "John"
+        ],
+        [
+          "Milnor"
+        ]
+      ],
+      [
+        [
+          "James"
+        ],
+        [
+          "Stasheff"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-9",
+    "titulo": "Introducción al álgebra lineal",
+    "autores": [
+      [
+        [
+          "Felipe"
+        ],
+        [
+          "Zaldivar"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-11",
+    "titulo": "Curso breve de geometría proyectiva",
+    "autores": [
+      [
+        [
+          "Felipe"
+        ],
+        [
+          "Cano"
+        ]
+      ],
+      [
+        [
+          "Beatriz"
+        ],
+        [
+          "Molina-Samper"
+        ]
+      ],
+      [
+        [
+          "Fernando"
+        ],
+        [
+          "Sanz"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-12",
+    "titulo": "Métodos topológicos en el estudio de las ecuaciones diferenciales no lineales",
+    "autores": [
+      [
+        [
+          "Pablo"
+        ],
+        [
+          "Amster"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-not-2",
+    "titulo": "Teoría de singularidades en topología, geometría y foliaciones II",
+    "autores": [
+      [
+        [
+          "Jean-Paul"
+        ],
+        [
+          "Brasselet"
+        ]
+      ],
+      [
+        [
+          "Felipe"
+        ],
+        [
+          "Cano"
+        ]
+      ],
+      [
+        [
+          "Dominique"
+        ],
+        [
+          "Cerveau"
+        ]
+      ],
+      [
+        [
+          "Dung",
+          "Tráng"
+        ],
+        [
+          "Lê"
+        ]
+      ],
+      [
+        [
+          "Frank"
+        ],
+        [
+          "Loray"
+        ]
+      ],
+      [
+        [
+          "Mutsuo"
+        ],
+        [
+          "Oka"
+        ]
+      ],
+      [
+        [
+          "José"
+        ],
+        [
+          "Seade"
+        ]
+      ],
+      [
+        [
+          "Mark"
+        ],
+        [
+          "Spivakovsky"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Notas",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-not-3",
+    "titulo": "Teoría de las gráficas: algunas aportaciones desde México",
+    "autores": [
+      [
+        [
+          "Julian"
+        ],
+        [
+          "Fresán"
+        ]
+      ],
+      [
+        [
+          "Ilán"
+        ],
+        [
+          "Goldfeder"
+        ]
+      ],
+      [
+        [
+          "Nahid"
+        ],
+        [
+          "Javier"
+        ]
+      ],
+      [
+        [
+          "Rita"
+        ],
+        [
+          "Zuazua"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Notas",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-act-1",
+    "titulo": "Proceedings of the Workshop on Holomorphic Dynamics",
+    "autores": [
+      [
+        [
+          "Patricia"
+        ],
+        [
+          "Dominguez",
+          "Soto"
+        ]
+      ],
+      [
+        [
+          "Peter"
+        ],
+        [
+          "Makienko"
+        ]
+      ],
+      [
+        [
+          "Carlos"
+        ],
+        [
+          "Cabrera",
+          "Ocañas"
+        ]
+      ]
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Actas",
+    "tomo": "",
+    "anio": "2999.0",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0.0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
   }
 ]

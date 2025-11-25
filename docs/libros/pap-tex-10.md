@@ -1,10 +1,10 @@
 ---
 title: "Curso introductorio, de álgebra II"
 authors: [[['Diana'], ['Avella']], [['Gabriela'], ['Campero']], [['Edith', 'Corina'], ['Saenz', 'Valadez']]]
-tags: [Papirhos, Textos, 2020]
+tags: [Papirhos, Textos, 2020.0]
 ---
 # Curso introductorio, de álgebra II
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2020</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2020.0</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
 <p align = "left"> <img src = "../../assets/covers/pap-tex-10.png" width="500" height="600"></p>
 
@@ -18,9 +18,9 @@ El presente texto está dirigido a estudiantes del primer semestre de carreras e
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
 | **Tomo** | 2.0 | 
-| **Año** | 2020 | 
+| **Año** | 2020.0 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 1 | 
+| **Edición** | 1.0 | 
 | **ISBN (Colección)** | 978-607-02-5149-8 | 
 | **ISBN (Texto)** | 978-607-30-3681-8 |
 
@@ -38,11 +38,11 @@ El presente texto está dirigido a estudiantes del primer semestre de carreras e
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Gabriela Campero, Edith, Corina Saenz, Valadez. (2020). *Curso introductorio, de álgebra II*. Instituto de Matemáticas, UNAM, 1
+> Diana Avella, Gabriela Campero, Edith, Corina Saenz, Valadez. (2020.0). *Curso introductorio, de álgebra II*. Instituto de Matemáticas, UNAM, 1.0
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-tex-10, <br>title = {Curso introductorio, de álgebra II}, <br>author = {Avella, Diana and Campero, Gabriela and Saenz, Edith}, <br>year = {2020}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-10, <br>title = {Curso introductorio, de álgebra II}, <br>author = {Avella, Diana and Campero, Gabriela and Saenz, Edith}, <br>year = {2020.0}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

@@ -1,15 +1,15 @@
 ---
-title: "Teoría de singularidades en topología, geometría y foliaciones"
+title: "Teoría de singularidades en topología, geometría y foliaciones I"
 authors: [[['Jean-Paul'], ['Brasselet']], [['Felipe'], ['Cano']], [['Dominique'], ['Cerveau']], [['Dung', 'Tráng'], ['Lê']], [['Frank'], ['Loray']], [['Mutsuo'], ['Oka']], [['José'], ['Seade']], [['Mark'], ['Spivakovsky']]]
-tags: [Papirhos, Notas, 2017]
+tags: [Papirhos, Notas, 2017.0]
 ---
-# Teoría de singularidades en topología, geometría y foliaciones
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Notas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2017</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
+# Teoría de singularidades en topología, geometría y foliaciones I
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Notas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2017.0</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
 <p align = "left"> <img src = "../../assets/covers/pap-not-1.jpg" width="500" height="600"></p>
 
 ## Resumen
-Resumen 1
+Resumen proximamente
 
 ## Metadatos
 |  |  |
@@ -17,9 +17,9 @@ Resumen 1
 | **Autores** | Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung, Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky | 
 | **Colección** | Papirhos | 
 | **Serie** | Notas | 
-| **Año** | 2017 | 
+| **Año** | 2017.0 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 1 | 
+| **Edición** | 1.0 | 
 | **ISBN (Colección)** | 978-607-02-5149-8 | 
 | **ISBN (Texto)** | 978-607-02-9845-5 |
 
@@ -37,11 +37,11 @@ Resumen 1
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung, Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky. (2017). *Teoría de singularidades en topología, geometría y foliaciones*. Instituto de Matemáticas, UNAM, 1
+> Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung, Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky. (2017.0). *Teoría de singularidades en topología, geometría y foliaciones I*. Instituto de Matemáticas, UNAM, 1.0
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-not-1, <br>title = {Teoría de singularidades en topología, geometría y foliaciones}, <br>author = {Brasselet, Jean-Paul and Cano, Felipe and Cerveau, Dominique and Lê, Dung and Loray, Frank and Oka, Mutsuo and Seade, José and Spivakovsky, Mark}, <br>year = {2017}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-not-1, <br>title = {Teoría de singularidades en topología, geometría y foliaciones I}, <br>author = {Brasselet, Jean-Paul and Cano, Felipe and Cerveau, Dominique and Lê, Dung and Loray, Frank and Oka, Mutsuo and Seade, José and Spivakovsky, Mark}, <br>year = {2017.0}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

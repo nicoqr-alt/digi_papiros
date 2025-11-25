@@ -55,7 +55,8 @@
         <h3><a href="${BASE}/libros/${x.id}/"> <b>${x.titulo}</b> <br>
             <small class="meta"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</small>
             <p>${[x.coleccion ? `Colección: ${x.coleccion}` : '', x.serie ? `Serie: ${x.serie}` : '', x.anio ? `Año: ${x.anio}` : ''].filter(Boolean).join(' | ')}</p>
-            <img src="${BASE}/assets/covers/${x.id}.png" alt="Portada">
+            <img src="${BASE}/assets/covers/${x.id}.jpg" style="display: none" onload="this.style.display=''">
+            <img src="${BASE}/assets/covers/${x.id}.png" style="display: none" onload="this.style.display=''">
         </div>
         `).join('');
     }
