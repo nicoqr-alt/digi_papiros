@@ -58,22 +58,14 @@ body{
 
 /* Banner tipo anuncio del encabezado */
 .md-banner {
-  background-color: #303030; /* Example: use primary theme color */
-  height: 120px;
-  line-height: 120px;
+  background-color: #303030;
+
   font-size: 0.9em;
   max-width: initial;
-  /* width: inherit; */
-  /* padding: 0 20px; */
-  /* text-align: center; */
-  /* Add other styles as needed */
+
 }
 
 #encabezado {
-  /* background-color: rgb(145, 47, 47); */
-  height: 120px;
-  line-height: 120px;
-  /* padding: 0 3rem; */
   position: absolute;
   max-width: initial;
   width: 80%;
@@ -89,7 +81,7 @@ body{
   position: absolute;
   /* left: 2rem; */
   /* background-color: coral; */
-  background-image: url("assets/logos/unam-silver.svg");
+  background-image: url("../assets/logos/unam-silver.svg");
   background-repeat: no-repeat;
   background-size: contain;
   top: 50%;
@@ -98,7 +90,7 @@ body{
 }
 
 #encabezado > div#logoizq:hover {
-  background-image: url("assets/logos/unam-gold.svg");
+  background-image: url("../assets/logos/unam-gold.svg");
   background-repeat: no-repeat;
   background-size: contain;
   top: 50%;
@@ -113,7 +105,7 @@ body{
   position: relative;
   margin: auto;
   /* background-color: coral; */
-  background-image: url("assets/logos/logo-texedores.svg");
+  background-image: url("../assets/logos/logo-texedores.svg");
   background-repeat: no-repeat;
   background-size: contain;
   top: 50%;
@@ -128,7 +120,7 @@ body{
   position: absolute;
   right: 0;
   /* background-color: coral; */
-  background-image: url("assets/logos/im-cropped.svg");
+  background-image: url("../assets/logos/im-cropped.svg");
   background-repeat: no-repeat;
   background-size: contain;
   top: 50%;
@@ -137,7 +129,7 @@ body{
 }
 
 #encabezado > div#logoder:hover {
-  background-image: url("assets/logos/im-cropped-H.svg");
+  background-image: url("../assets/logos/im-cropped-H.svg");
   background-repeat: no-repeat;
   background-size: contain;
   top: 50%;
@@ -145,25 +137,6 @@ body{
   transform: translateY(-50%);
 }
 
-/* Parte responsiva */
-
-@media (min-width: 820px) {
-    #resultados {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: .8rem;
-    }
-    #resultados .card{ 
-        margin: 0;
-    }
-}
-@media (min-width: 1200px) {
-        #resultados {
-            display:grid;
-            grid-template-columns:
-            repeat(3, 1fr);
-        }
-    }
 .chips {
     display:flex;
     gap:.4rem;
@@ -192,80 +165,5 @@ details > summary { cursor: pointer;
 
 .hidden{display: none !important;}
 
-.site-footer{
-    /* margin-top: 1.5rem; */
-    /* padding: 1rem 0;
-    border-top: 1px solid var(--md-default-fg-color-lightest);
-    background: var(--md-default-bg-color); */
-    background-color: #303030;
-}
-
-.site-footer .footer-inner{
-    /* max-width: 64rem; */
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 1 rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-
-}
-
-@media (max-width: 767px){
-
-    .site-footer{
-        /* padding: .5rem 0; */
-      background-color: #505050;
-      width: 100%;
-      }
-
-    .footer-brand{
-      background-color: #505050;
-      flex-direction: column; 
-      align-items: center;
-      gap: .5rem;
-    }
-    .footer-links{
-        display: none;
-    }
-    .footer-meta{
-        font-size: .75rem;
-        text-align: center;
-        margin-top: .25rem;
-    }
-    .footer-logo{
-        display: block;
-        margin: 0 auto;
-        width: 100px;
-        height: 40px;
-    }
-    .footer-title, .footer-subtitle{
-        font-size: .85rem;
-        line-height: 1.1;
-        text-align: center;
-    }
-    .md-banner {
-      display: none;
-    }
-}
-
-
-@media (min-width: 768px){
-    .footer-brand{
-        background-color: #505050;
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-        gap: .75 rem;
-    }
-    .footer-logo{
-        width: 100px;
-        height: 40px;
-        margin: 0;
-    }
-    .footer-meta{
-        text-align: center;
-    }
-}
 
 

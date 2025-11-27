@@ -1,0 +1,117 @@
+@media (max-width: 768px){
+
+    .site-footer{
+        /* padding: .5rem 0; */
+      background-color: #505050;
+      width: 100%;
+      }
+
+    .footer-brand{
+      background-color: #505050;
+      flex-direction: column; 
+      align-items: center;
+      gap: .5rem;
+    }
+    .footer-links{
+        display: none;
+    }
+    .footer-meta{
+        font-size: .75rem;
+        text-align: center;
+        margin-top: .25rem;
+    }
+    .footer-logo{
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 40px;
+    }
+    .footer-title, .footer-subtitle{
+        font-size: .85rem;
+        line-height: 1.1;
+        text-align: center;
+    }
+    .md-banner {
+      display: none;
+    }
+}
+
+
+@media (min-width: 769px){
+    .footer-brand{
+        background-color: #505050;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        gap: .75 rem;
+    }
+    .footer-logo{
+        width: 100px;
+        height: 40px;
+        margin: 0;
+    }
+    .footer-meta{
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+  .md-banner {
+    height: 100px;
+    line-height: 100px;
+  }
+  #encabezado{
+    height: 100px;
+    line-height: 100px;
+    width: 90%;
+  }
+  #encabezado > div#logoizq {
+    height: 80px;
+    width: 71px;
+  }
+  #encabezado > div#logomid {
+    height: 70px;
+    width: 291px;
+  }
+  #encabezado > div#logoder {
+    height: 70px;
+    width: 168px;
+  }
+    #resultados {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .8rem;
+    }
+    #resultados .card{ 
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+  .md-banner {
+    height: 120px;
+    line-height: 120px;
+  }
+  #encabezado{
+    height: 120px;
+    line-height: 120px;
+    width: 80%;
+  }
+  #encabezado > div#logoizq {
+    height: 100px;
+    width: 89px;
+  }
+  #encabezado > div#logomid {
+    height: 81px;
+    width: 337px;
+  }
+  #encabezado > div#logoder {
+    height: 90px;
+    width: 216px;
+  }    
+  #resultados {
+      display:grid;
+      grid-template-columns:
+      repeat(3, 1fr);
+  }
+}

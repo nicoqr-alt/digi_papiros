@@ -9,6 +9,8 @@ def gjsn(r):
        #Limpiador
        #cada fila (del diccionario) es re-hecha para que los campos con entradas múltiples (e.g., múltiples autores) se vuelvan una lista
        autores, anio, _id, titulo, coleccion, serie, tomo, editorial, edicion, isbn_col, isbn_libro, estado, extra1, extra2 = extractidatos.extractidatos(r)
+       autores = [" ".join(autor[0]) + " " + " ".join(autor[1]) for autor in autores]
+       print(autores)
        return{
               "id": _id,
               "titulo": titulo,

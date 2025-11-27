@@ -15,7 +15,7 @@ def extractidatos(r):
             noms = persona[0].strip().split(sep=" ")
             aps = persona[1].strip().split(sep = " ")
             snomsyap.append([noms,aps])
-        print(snomsyap)
+        #print(snomsyap)
         return snomsyap
     parte_nombres()
     #Codigo original: da una lista de autores (n>ap) separados por comas

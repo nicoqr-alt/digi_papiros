@@ -6,7 +6,7 @@ tags: [Papirhos, Actas, 2999.0]
 # Proceedings of the Workshop on Holomorphic Dynamics
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Actas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2999.0</span> <span class ="chip"></span class ="icon">ℹ️</span> Físico</span></div>
 
-<p align = "left"> <img src = "../../assets/covers/pap-act-1.jpg" width="500" height="600"></p>
+<p align = "left"> <img src = "../../assets/covers/pap-act-1.png" width="500" height="600"></p>
 
 ## Resumen
 Resumen proximamente
