@@ -45,9 +45,5 @@ def resumen():
 def estado():
     return input("Estado: ")
 
-def id(coleccion, serie="x", numserie):
-    if serie == "x":
-        return coleccion[0:3].lower() + "-" + serie[0:3].lower() + "-" + str(numserie)
-    else:
-        return coleccion[0:3].lower() + "-x-" + str(numserie)
+
 
