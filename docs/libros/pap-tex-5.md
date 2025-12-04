@@ -8,6 +8,8 @@ tags: [Papirhos, Textos, 2999.0]
 
 <p align = "left"> <img src = "../../assets/covers/pap-tex-5.png" width="500" height="600"></p>
 
+
+
 ## Resumen
 Resumen proximamente
 

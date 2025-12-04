@@ -49,6 +49,8 @@ def fila_a_obj(r):
 
 <p align = "left"> <img src = {cover_file} width="500" height="600"></p>
 
+
+
 ## Resumen
 {(resumen if resumen else "_Resumen próximamente._")}
 

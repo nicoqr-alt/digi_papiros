@@ -8,6 +8,8 @@ tags: [Papirhos, Actas, 2999.0]
 
 <p align = "left"> <img src = "../../assets/covers/pap-act-1.png" width="500" height="600"></p>
 
+
+
 ## Resumen
 Resumen proximamente
 

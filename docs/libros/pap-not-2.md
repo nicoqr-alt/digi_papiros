@@ -8,6 +8,8 @@ tags: [Papirhos, Notas, 2999.0]
 
 <p align = "left"> <img src = "../../assets/covers/pap-not-2.jpg" width="500" height="600"></p>
 
+
+
 ## Resumen
 Resumen proximamente
 

@@ -8,6 +8,8 @@ tags: [Papirhos, Textos, 2014.0]
 
 <p align = "left"> <img src = "../../assets/covers/pap-tex-1.png" width="500" height="600"></p>
 
+
+
 ## Resumen
 Resumen 5
 

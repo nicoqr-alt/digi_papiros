@@ -29,5 +29,4 @@ markdown_extensions:
  - pymdownx.superfences
 extra_javascript:
  - js/config.js
- - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js
- - js/auth.js
+

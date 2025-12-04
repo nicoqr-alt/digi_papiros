@@ -8,6 +8,8 @@ tags: [Cuadernos de olimpiadas de matemáticas, 2018.0]
 
 <p align = "left"> <img src = "../../assets/covers/cuad-x-1.png" width="500" height="600"></p>
 
+
+
 ## Resumen
 Resumen 2
 

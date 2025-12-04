@@ -8,6 +8,8 @@ tags: [Papirhos, Mixbaal]
 
 <p align = "left"> <img src = "../../assets/covers/pap-mix-1.jpg" width="500" height="600"></p>
 
+
+
 ## Resumen
 Resumen proximamente
 

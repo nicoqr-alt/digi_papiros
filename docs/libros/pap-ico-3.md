@@ -8,6 +8,8 @@ tags: [Papirhos, Icosaedro, 2999.0]
 
 <p align = "left"> <img src = "../../assets/covers/pap-ico-3.jpg" width="500" height="600"></p>
 
+
+
 ## Resumen
 Resumen proximamente
 
