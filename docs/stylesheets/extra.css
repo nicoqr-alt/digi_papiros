@@ -165,5 +165,33 @@ details > summary { cursor: pointer;
 
 .hidden{display: none !important;}
 
+/*Ocultar el nombre de la página y dejar solo el logo*/
+.md-header__title .md-header__topic:first-child .md-ellipsis {
+  font-size: 0;
+}
+
+@media screen and (max-width:
+ 76.1875em){
+  .md-header__button.md-logo{
+    display: inline-flex !important;
+    align-items: center;
+  }
+}
+
+/*Reordena menú hamburguesa*/
+.md-header__button.md-logo{
+  order: 2;
+}
+
+.md-header__button.md-nav-button{
+  order: 1;
+}
+
+.md-header__inner{
+  display: flex;
+  align-items: center;
+}
+
+
 
 
