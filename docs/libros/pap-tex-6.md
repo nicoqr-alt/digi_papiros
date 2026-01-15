@@ -1,10 +1,10 @@
 ---
 title: "Curso introductorio de álgebra I"
 authors: [[['Diana'], ['Avella']], [['Gabriela'], ['Campero']]]
-tags: [Papirhos, Textos, 2017.0]
+tags: [Papirhos, Textos, 2017]
 ---
 # Curso introductorio de álgebra I
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2017.0</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2017</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
 <p align = "left"> <img src = "../../assets/covers/pap-tex-6.jpg" width="500" height="600"></p>
 
@@ -19,10 +19,10 @@ Resumen 3
 | **Autores** | Diana Avella, Gabriela Campero | 
 | **Colección** | Papirhos | 
 | **Serie** | Textos | 
-| **Tomo** | 1.0 | 
-| **Año** | 2017.0 | 
+| **Tomo** | 1 | 
+| **Año** | 2017 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 1.0 | 
+| **Edición** | 1 | 
 | **ISBN (Colección)** | 978-607-02-5149-8 | 
 | **ISBN (Texto)** | 978-607-02-8824-1 |
 
@@ -40,11 +40,11 @@ Resumen 3
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Gabriela Campero. (2017.0). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1.0
+> Diana Avella, Gabriela Campero. (2017). *Curso introductorio de álgebra I*. Instituto de Matemáticas, UNAM, 1
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-tex-6, <br>title = {Curso introductorio de álgebra I}, <br>author = {Avella, Diana and Campero, Gabriela}, <br>year = {2017.0}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-tex-6, <br>title = {Curso introductorio de álgebra I}, <br>author = {Avella, Diana and Campero, Gabriela}, <br>year = {2017}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

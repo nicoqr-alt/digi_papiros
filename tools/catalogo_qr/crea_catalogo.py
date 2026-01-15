@@ -11,7 +11,8 @@ AUTORES_LIBROS_CSV = os.path.join(BASE, "catalogo_qr", "libros_autores.csv")
 RESUMENES_CSV      = os.path.join(BASE, "catalogo_qr", "resumenes.csv")
 LIBROS_CSV         = os.path.join(BASE, "catalogo_qr", "libros.csv")
 
-SALIDA_CSV         = "catalogo.csv"
+SALIDA_CSV         = "data/catalogo.csv"
+print(BASE)
 
 # Separador entre autores en la celda final (puedes cambiarlo si tu script espera otro)
 SEPARADOR_ENTRE_AUTORES = "; "
@@ -106,7 +107,9 @@ catalogo = catalogo.merge(
 
 # Volver a llamar 'id_libro' simplemente 'id' para el CSV final
 catalogo = catalogo.rename(columns={"id_libro": "id"})
-
+catalogo["anio"] = catalogo["anio"].astype(str).str.replace(".0", "", regex=False)
+catalogo["edicion"] = catalogo["edicion"].astype(str).str.replace(".0", "", regex=False)
+catalogo["tomo"] = catalogo["tomo"].astype(str).str.replace(".0", "", regex=False)
 # ==========================
 # 5. ORDENAR COLUMNAS COMO QUIERES
 # ==========================

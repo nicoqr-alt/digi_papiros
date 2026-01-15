@@ -1,10 +1,10 @@
 ---
 title: "Teoría de las gráficas: algunas aportaciones desde México"
 authors: [[['Julian'], ['Fresán']], [['Ilán'], ['Goldfeder']], [['Nahid'], ['Javier']], [['Rita'], ['Zuazua']]]
-tags: [Papirhos, Notas, 2999.0]
+tags: [Papirhos, Notas, 2999]
 ---
 # Teoría de las gráficas: algunas aportaciones desde México
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Notas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2999.0</span> <span class ="chip"></span class ="icon">ℹ️</span> Físico</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Notas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2999</span> <span class ="chip"></span class ="icon">ℹ️</span> Físico</span></div>
 
 <p align = "left"> <img src = "../../assets/covers/pap-not-3.png" width="500" height="600"></p>
 
@@ -19,9 +19,10 @@ Resumen proximamente
 | **Autores** | Julian Fresán, Ilán Goldfeder, Nahid Javier, Rita Zuazua | 
 | **Colección** | Papirhos | 
 | **Serie** | Notas | 
-| **Año** | 2999.0 | 
+| **Tomo** | nan | 
+| **Año** | 2999 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0.0 | 
+| **Edición** | 0 | 
 | **ISBN (Colección)** | 000 | 
 | **ISBN (Texto)** | 000 |
 
@@ -39,11 +40,11 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Julian Fresán, Ilán Goldfeder, Nahid Javier, Rita Zuazua. (2999.0). *Teoría de las gráficas: algunas aportaciones desde México*. Instituto de Matemáticas, UNAM, 0.0
+> Julian Fresán, Ilán Goldfeder, Nahid Javier, Rita Zuazua. (2999). *Teoría de las gráficas: algunas aportaciones desde México*. Instituto de Matemáticas, UNAM, 0
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-not-3, <br>title = {Teoría de las gráficas: algunas aportaciones desde México}, <br>author = {Fresán, Julian and Goldfeder, Ilán and Javier, Nahid and Zuazua, Rita}, <br>year = {2999.0}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-not-3, <br>title = {Teoría de las gráficas: algunas aportaciones desde México}, <br>author = {Fresán, Julian and Goldfeder, Ilán and Javier, Nahid and Zuazua, Rita}, <br>year = {2999}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

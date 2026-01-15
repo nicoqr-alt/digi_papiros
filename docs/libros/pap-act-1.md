@@ -1,10 +1,10 @@
 ---
 title: "Proceedings of the Workshop on Holomorphic Dynamics"
 authors: [[['Patricia'], ['Dominguez', 'Soto']], [['Peter'], ['Makienko']], [['Carlos'], ['Cabrera', 'Ocañas']]]
-tags: [Papirhos, Actas, 2999.0]
+tags: [Papirhos, Actas, 2999]
 ---
 # Proceedings of the Workshop on Holomorphic Dynamics
-<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Actas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2999.0</span> <span class ="chip"></span class ="icon">ℹ️</span> Físico</span></div>
+<div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Actas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2999</span> <span class ="chip"></span class ="icon">ℹ️</span> Físico</span></div>
 
 <p align = "left"> <img src = "../../assets/covers/pap-act-1.png" width="500" height="600"></p>
 
@@ -19,9 +19,10 @@ Resumen proximamente
 | **Autores** | Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas | 
 | **Colección** | Papirhos | 
 | **Serie** | Actas | 
-| **Año** | 2999.0 | 
+| **Tomo** | nan | 
+| **Año** | 2999 | 
 | **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0.0 | 
+| **Edición** | 0 | 
 | **ISBN (Colección)** | 000 | 
 | **ISBN (Texto)** | 000 |
 
@@ -39,11 +40,11 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas. (2999.0). *Proceedings of the Workshop on Holomorphic Dynamics*. Instituto de Matemáticas, UNAM, 0.0
+> Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas. (2999). *Proceedings of the Workshop on Holomorphic Dynamics*. Instituto de Matemáticas, UNAM, 0
 
 <details>
   <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-act-1, <br>title = {Proceedings of the Workshop on Holomorphic Dynamics}, <br>author = {Dominguez, Patricia and Makienko, Peter and Cabrera, Carlos}, <br>year = {2999.0}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+  <p style="font-family:'Courier New'">@BOOK{pap-act-1, <br>title = {Proceedings of the Workshop on Holomorphic Dynamics}, <br>author = {Dominguez, Patricia and Makienko, Peter and Cabrera, Carlos}, <br>year = {2999}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
 </details>
 
 

@@ -6,6 +6,8 @@
 
 - **[Curso introductorio, de álgebra II](libros/pap-tex-10.md)** Papirhos Textos - Publicado
 
+- **[Curso introductorio, de álgebra II](libros/pap-tex-10.md)** Papirhos Textos - Publicado
+
 - **[Grupos I](libros/pap-tex-1.md)** Papirhos Textos - Publicado
 
 - **[Grupos II](libros/pap-tex-4.md)** Papirhos Textos - Publicado
@@ -13,8 +15,6 @@
 - **[Curso breve de geometría proyectiva](libros/pap-tex-11.md)** Papirhos Textos - Físico
 
 - **[Introducción al álgebra lineal](libros/pap-tex-9.md)** Papirhos Textos - Físico
-
-- **[Teoría de singularidades en topología, geometría y foliaciones I](libros/pap-not-1.md)** Papirhos Notas - Publicado
 
 - **[Teoría de singularidades en topología, geometría y foliaciones I](libros/pap-not-1.md)** Papirhos Notas - Publicado
 
