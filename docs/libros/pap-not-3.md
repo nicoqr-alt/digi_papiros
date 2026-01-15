@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Julian Fresán, Ilán Goldfeder, Nahid Javier, Rita Zuazua | 
-| **Colección** | Papirhos | 
-| **Serie** | Notas | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Julian Fresán, Ilán Goldfeder, Nahid Javier, Rita Zuazua |
+| Colección | Papirhos |
+| Serie | Notas |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-not-3 download-link" data-book-id="pap-not-3" href = "pap-not-3_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

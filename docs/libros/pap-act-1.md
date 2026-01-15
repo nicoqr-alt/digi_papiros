@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas | 
-| **Colección** | Papirhos | 
-| **Serie** | Actas | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas |
+| Colección | Papirhos |
+| Serie | Actas |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-act-1 download-link" data-book-id="pap-act-1" href = "pap-act-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

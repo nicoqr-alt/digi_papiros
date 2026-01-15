@@ -16,15 +16,15 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana Avella, Gabriela Campero, Edith, Corina Saenz, Valadez | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | 2 | 
-| **Año** | 2020 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 1 | 
-| **ISBN (Colección)** | 978-607-02-5149-8 | 
-| **ISBN (Texto)** | 978-607-30-3681-8 |
+| Autores | Diana Avella, Gabriela Campero, Edith, Corina Saenz, Valadez |
+| Colección | Papirhos |
+| Serie | Textos |
+| Tomo | 2 |
+| Año | 2020 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 1 |
+| ISBN (Colección) | 978-607-02-5149-8 |
+| ISBN (Texto) | 978-607-30-3681-8 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-10 download-link" data-book-id="pap-tex-10" href = "pap-tex-10_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

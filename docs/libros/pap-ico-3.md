@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Jose, Antonio Gómez, Ortega, Carlos, Jacob Rubio, Barrios, Rogelio Valdez, Delgado | 
-| **Colección** | Papirhos | 
-| **Serie** | Icosaedro | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Jose, Antonio Gómez, Ortega, Carlos, Jacob Rubio, Barrios, Rogelio Valdez, Delgado |
+| Colección | Papirhos |
+| Serie | Icosaedro |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-ico-3 download-link" data-book-id="pap-ico-3" href = "pap-ico-3_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

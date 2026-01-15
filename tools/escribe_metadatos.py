@@ -5,7 +5,10 @@ def escribe_metadatos(autores, coleccion, serie, tomo, anio, editorial, edicion,
 
     def opt(label, val):
     #Minifuncion para evitar que los datos fallen al escribirse
-        return f"| **{label}** | {val} | \n" if val else ""
+        if val and val != "nan":
+            return f"| {label} | {val} |\n"
+        else:
+            return ""  # Retorna cadena vacía
     return   (
                 "|  |  |\n"
                 "|---|---|\n"

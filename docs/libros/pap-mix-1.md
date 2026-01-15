@@ -16,12 +16,9 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Cecilia Neve, Jimenez, Laura Rosales, Ortiz | 
-| **Colección** | Papirhos | 
-| **Serie** | Mixbaal | 
-| **Tomo** | nan | 
-| **Año** | nan | 
-| **Edición** | nan |
+| Autores | Cecilia Neve, Jimenez, Laura Rosales, Ortiz |
+| Colección | Papirhos |
+| Serie | Mixbaal |
 
 ## Descargas
 <a class="md-button data-book-id=pap-mix-1 download-link" data-book-id="pap-mix-1" href = "pap-mix-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

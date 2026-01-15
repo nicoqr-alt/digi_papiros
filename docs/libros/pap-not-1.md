@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung, Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky | 
-| **Colección** | Papirhos | 
-| **Serie** | Notas | 
-| **Tomo** | nan | 
-| **Año** | 2017 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 1 | 
-| **ISBN (Colección)** | 978-607-02-5149-8 | 
-| **ISBN (Texto)** | 978-607-02-9845-5 |
+| Autores | Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung, Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky |
+| Colección | Papirhos |
+| Serie | Notas |
+| Año | 2017 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 1 |
+| ISBN (Colección) | 978-607-02-5149-8 |
+| ISBN (Texto) | 978-607-02-9845-5 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-not-1 download-link" data-book-id="pap-not-1" href = "pap-not-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

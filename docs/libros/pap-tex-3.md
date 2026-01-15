@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Victor Guillemin, Allan Pollack | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Victor Guillemin, Allan Pollack |
+| Colección | Papirhos |
+| Serie | Textos |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-3 download-link" data-book-id="pap-tex-3" href = "pap-tex-3_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Manuel Cruz, Montserrat García | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Manuel Cruz, Montserrat García |
+| Colección | Papirhos |
+| Serie | Textos |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-5 download-link" data-book-id="pap-tex-5" href = "pap-tex-5_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

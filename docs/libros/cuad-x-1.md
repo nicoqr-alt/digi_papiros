@@ -16,14 +16,13 @@ Resumen 2
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Maria, Luisa Pérez, Seguí | 
-| **Colección** | Cuadernos de olimpiadas de matemáticas | 
-| **Tomo** | nan | 
-| **Año** | 2018 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 2 | 
-| **ISBN (Colección)** | 978-968-36-8599-5 | 
-| **ISBN (Texto)** | 978-607-02-85882 |
+| Autores | Maria, Luisa Pérez, Seguí |
+| Colección | Cuadernos de olimpiadas de matemáticas |
+| Año | 2018 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 2 |
+| ISBN (Colección) | 978-968-36-8599-5 |
+| ISBN (Texto) | 978-607-02-85882 |
 
 ## Descargas
 <a class="md-button data-book-id=cuad-x-1 download-link" data-book-id="cuad-x-1" href = "cuad-x-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

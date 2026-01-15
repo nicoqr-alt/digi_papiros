@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Felipe Zaldivar | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Felipe Zaldivar |
+| Colección | Papirhos |
+| Serie | Textos |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-9 download-link" data-book-id="pap-tex-9" href = "pap-tex-9_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

@@ -16,15 +16,15 @@ Resumen 3
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana Avella, Gabriela Campero | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | 1 | 
-| **Año** | 2017 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 1 | 
-| **ISBN (Colección)** | 978-607-02-5149-8 | 
-| **ISBN (Texto)** | 978-607-02-8824-1 |
+| Autores | Diana Avella, Gabriela Campero |
+| Colección | Papirhos |
+| Serie | Textos |
+| Tomo | 1 |
+| Año | 2017 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 1 |
+| ISBN (Colección) | 978-607-02-5149-8 |
+| ISBN (Texto) | 978-607-02-8824-1 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-6 download-link" data-book-id="pap-tex-6" href = "pap-tex-6_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

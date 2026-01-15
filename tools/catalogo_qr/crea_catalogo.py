@@ -110,6 +110,7 @@ catalogo = catalogo.rename(columns={"id_libro": "id"})
 catalogo["anio"] = catalogo["anio"].astype(str).str.replace(".0", "", regex=False)
 catalogo["edicion"] = catalogo["edicion"].astype(str).str.replace(".0", "", regex=False)
 catalogo["tomo"] = catalogo["tomo"].astype(str).str.replace(".0", "", regex=False)
+
 # ==========================
 # 5. ORDENAR COLUMNAS COMO QUIERES
 # ==========================

@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Felipe Cano, Beatriz Molina-Samper, Fernando Sanz | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Felipe Cano, Beatriz Molina-Samper, Fernando Sanz |
+| Colección | Papirhos |
+| Serie | Textos |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-11 download-link" data-book-id="pap-tex-11" href = "pap-tex-11_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

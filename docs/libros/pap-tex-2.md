@@ -16,15 +16,14 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Mónica Clapp | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | nan | 
-| **Año** | 2999 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 0 | 
-| **ISBN (Colección)** | 000 | 
-| **ISBN (Texto)** | 000 |
+| Autores | Mónica Clapp |
+| Colección | Papirhos |
+| Serie | Textos |
+| Año | 2999 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 0 |
+| ISBN (Colección) | 000 |
+| ISBN (Texto) | 000 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-2 download-link" data-book-id="pap-tex-2" href = "pap-tex-2_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>

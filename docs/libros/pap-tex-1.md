@@ -16,15 +16,15 @@ Resumen 5
 ## Metadatos
 |  |  |
 |---|---|
-| **Autores** | Diana Avella, Octavio Mendoza, Edith, Corina Saenz, Valadez, María, José Souto | 
-| **Colección** | Papirhos | 
-| **Serie** | Textos | 
-| **Tomo** | 1 | 
-| **Año** | 2014 | 
-| **Editorial** | Instituto de Matemáticas, UNAM | 
-| **Edición** | 3 | 
-| **ISBN (Colección)** | 978-607-02-9375-7 | 
-| **ISBN (Texto)** | 978-607-02-9435-8 |
+| Autores | Diana Avella, Octavio Mendoza, Edith, Corina Saenz, Valadez, María, José Souto |
+| Colección | Papirhos |
+| Serie | Textos |
+| Tomo | 1 |
+| Año | 2014 |
+| Editorial | Instituto de Matemáticas, UNAM |
+| Edición | 3 |
+| ISBN (Colección) | 978-607-02-9375-7 |
+| ISBN (Texto) | 978-607-02-9435-8 |
 
 ## Descargas
 <a class="md-button data-book-id=pap-tex-1 download-link" data-book-id="pap-tex-1" href = "pap-tex-1_mark.pdf" target = "_blank" rel ="noopener" > Abrir PDF </a>
