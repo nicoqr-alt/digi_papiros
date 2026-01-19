@@ -67,8 +67,33 @@ def fila_a_obj(r):
 > {(", ".join(autsnor) +". ") if autores else ""}{f"({anio}). " if anio else ""}*{titulo}*. {editorial}{(", " + str(edicion)) if edicion else ""}
 
 <details>
-  <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{{{_id}, <br>title = {{{titulo}}}, <br>author = {{{" and ".join(autbib) if autores else ""}}}, <br>year = {{{anio}}}, <br>publisher = {{{editorial}}}, <br>address = {{México}}}} </p>
+<summary>BibTeX</summary>
+<textarea id="myInput" rows="6" cols="80" class="verbatim">
+@BOOK{{{_id}, 
+title = {{{titulo}}}, 
+author = {{{" and ".join(autbib) if autores else ""}}}, 
+year = {{{anio}}}, 
+publisher = {{{editorial}}}, 
+address = {{México}}}}
+</textarea>
+<br>
+<button style ="cursor:pointer; background-color: #ecf3ff; color: #448aff; padding: 3px 6px; border-radius: 6px; text-align: center" onclick="myFunction()">Copiar BibTeX</button>
+
+<style>
+  .verbatim {{
+    font-family: monospace;
+    white-space: pre;
+  }}
+</style>
+
+<script>
+function myFunction() {{
+  const copyText = document.getElementById("myInput");
+  copyText.select();
+  navigator.clipboard.writeText(copyText.value);
+  alert("¡Copiado!");
+}}
+</script>
 </details>
 
 

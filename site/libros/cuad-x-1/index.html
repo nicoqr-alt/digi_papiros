@@ -522,8 +522,33 @@
 <p>Maria, Luisa Pérez, Seguí. (2018). <em>Combinatoria</em>. Instituto de Matemáticas, UNAM, 2</p>
 </blockquote>
 <details>
-  <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{cuad-x-1, <br>title = {Combinatoria}, <br>author = {Pérez, Maria}, <br>year = {2018}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+<summary>BibTeX</summary>
+<textarea id="myInput" rows="6" cols="80" class="verbatim">
+@BOOK{cuad-x-1, 
+title = {Combinatoria}, 
+author = {Pérez, Maria}, 
+year = {2018}, 
+publisher = {Instituto de Matemáticas, UNAM}, 
+address = {México}}
+</textarea>
+<br>
+<button style ="cursor:pointer; background-color: #ecf3ff; color: #448aff; padding: 3px 6px; border-radius: 6px; text-align: center" onclick="myFunction()">Copiar BibTeX</button>
+
+<style>
+  .verbatim {
+    font-family: monospace;
+    white-space: pre;
+  }
+</style>
+
+<script>
+function myFunction() {
+  const copyText = document.getElementById("myInput");
+  copyText.select();
+  navigator.clipboard.writeText(copyText.value);
+  alert("¡Copiado!");
+}
+</script>
 </details>
 
 <p><a href="../../catalogo/">Volver al catálogo</a></p>

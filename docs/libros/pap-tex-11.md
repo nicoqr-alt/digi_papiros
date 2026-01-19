@@ -42,8 +42,33 @@ Resumen proximamente
 > Felipe Cano, Beatriz Molina-Samper, Fernando Sanz. (2999). *Curso breve de geometría proyectiva*. Instituto de Matemáticas, UNAM, 0
 
 <details>
-  <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-tex-11, <br>title = {Curso breve de geometría proyectiva}, <br>author = {Cano, Felipe and Molina-Samper, Beatriz and Sanz, Fernando}, <br>year = {2999}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+<summary>BibTeX</summary>
+<textarea id="myInput" rows="6" cols="80" class="verbatim">
+@BOOK{pap-tex-11, 
+title = {Curso breve de geometría proyectiva}, 
+author = {Cano, Felipe and Molina-Samper, Beatriz and Sanz, Fernando}, 
+year = {2999}, 
+publisher = {Instituto de Matemáticas, UNAM}, 
+address = {México}}
+</textarea>
+<br>
+<button style ="cursor:pointer; background-color: #ecf3ff; color: #448aff; padding: 3px 6px; border-radius: 6px; text-align: center" onclick="myFunction()">Copiar BibTeX</button>
+
+<style>
+  .verbatim {
+    font-family: monospace;
+    white-space: pre;
+  }
+</style>
+
+<script>
+function myFunction() {
+  const copyText = document.getElementById("myInput");
+  copyText.select();
+  navigator.clipboard.writeText(copyText.value);
+  alert("¡Copiado!");
+}
+</script>
 </details>
 
 

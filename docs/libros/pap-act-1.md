@@ -42,8 +42,33 @@ Resumen proximamente
 > Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas. (2999). *Proceedings of the Workshop on Holomorphic Dynamics*. Instituto de Matemáticas, UNAM, 0
 
 <details>
-  <summary>BibTeX</summary>
-  <p style="font-family:'Courier New'">@BOOK{pap-act-1, <br>title = {Proceedings of the Workshop on Holomorphic Dynamics}, <br>author = {Dominguez, Patricia and Makienko, Peter and Cabrera, Carlos}, <br>year = {2999}, <br>publisher = {Instituto de Matemáticas, UNAM}, <br>address = {México}} </p>
+<summary>BibTeX</summary>
+<textarea id="myInput" rows="6" cols="80" class="verbatim">
+@BOOK{pap-act-1, 
+title = {Proceedings of the Workshop on Holomorphic Dynamics}, 
+author = {Dominguez, Patricia and Makienko, Peter and Cabrera, Carlos}, 
+year = {2999}, 
+publisher = {Instituto de Matemáticas, UNAM}, 
+address = {México}}
+</textarea>
+<br>
+<button style ="cursor:pointer; background-color: #ecf3ff; color: #448aff; padding: 3px 6px; border-radius: 6px; text-align: center" onclick="myFunction()">Copiar BibTeX</button>
+
+<style>
+  .verbatim {
+    font-family: monospace;
+    white-space: pre;
+  }
+</style>
+
+<script>
+function myFunction() {
+  const copyText = document.getElementById("myInput");
+  copyText.select();
+  navigator.clipboard.writeText(copyText.value);
+  alert("¡Copiado!");
+}
+</script>
 </details>
 
 
