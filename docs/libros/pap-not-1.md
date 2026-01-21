@@ -16,7 +16,7 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| Autores | Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung, Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky |
+| Autores | Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky |
 | Colección | Papirhos |
 | Serie | Notas |
 | Año | 2017 |

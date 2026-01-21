@@ -16,7 +16,7 @@ Resumen 2
 ## Metadatos
 |  |  |
 |---|---|
-| Autores | Maria, Luisa Pérez, Seguí |
+| Autores | Maria Luisa Pérez Seguí |
 | Colección | Cuadernos de olimpiadas de matemáticas |
 | Año | 2018 |
 | Editorial | Instituto de Matemáticas, UNAM |

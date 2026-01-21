@@ -16,7 +16,7 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| Autores | Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas |
+| Autores | Patricia Dominguez Soto, Peter Makienko, Carlos Cabrera Ocañas |
 | Colección | Papirhos |
 | Serie | Actas |
 | Año | 2999 |

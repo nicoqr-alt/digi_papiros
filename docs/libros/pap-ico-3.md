@@ -16,7 +16,7 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| Autores | Jose, Antonio Gómez, Ortega, Carlos, Jacob Rubio, Barrios, Rogelio Valdez, Delgado |
+| Autores | Jose Antonio Gómez Ortega, Carlos Jacob Rubio Barrios, Rogelio Valdez Delgado |
 | Colección | Papirhos |
 | Serie | Icosaedro |
 | Año | 2999 |

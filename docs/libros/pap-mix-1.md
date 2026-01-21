@@ -16,7 +16,7 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| Autores | Cecilia Neve, Jimenez, Laura Rosales, Ortiz |
+| Autores | Cecilia Neve Jimenez, Laura Rosales Ortiz |
 | Colección | Papirhos |
 | Serie | Mixbaal |
 

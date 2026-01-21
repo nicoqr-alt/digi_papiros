@@ -1,7 +1,7 @@
 def escribe_metadatos(autores, coleccion, serie, tomo, anio, editorial, edicion, isbn_col, isbn_libro):
     #Lista con autores de nombre y apellido completo en una sola string
-    auts = [", ".join(autor[0]) + " " + ", ".join(autor[1]) for autor in autores]
-
+    #El autor que se recibe es una lista del tipo [[nombre1, nombre2], [apellido1, apellido2]]
+    auts = [" ".join(autor[0]) + " " + " ".join(autor[1]) for autor in autores]
 
     def opt(label, val):
     #Minifuncion para evitar que los datos fallen al escribirse

@@ -16,7 +16,7 @@ Resumen proximamente
 ## Metadatos
 |  |  |
 |---|---|
-| Autores | Diana Avella, Gabriela Campero, Edith, Corina Saenz, Valadez |
+| Autores | Diana Avella, Gabriela Campero, Edith Corina Saenz Valadez |
 | Colección | Papirhos |
 | Serie | Textos |
 | Tomo | 2 |

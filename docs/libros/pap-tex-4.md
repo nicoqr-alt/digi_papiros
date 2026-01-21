@@ -16,7 +16,7 @@ Resuemn 6
 ## Metadatos
 |  |  |
 |---|---|
-| Autores | Diana Avella, Octavio Mendoza, Edith, Corina Saenz, Valadez, María, José Souto |
+| Autores | Diana Avella, Octavio Mendoza, Edith Corina Saenz Valadez, María José Souto |
 | Colección | Papirhos |
 | Serie | Textos |
 | Tomo | 2 |
