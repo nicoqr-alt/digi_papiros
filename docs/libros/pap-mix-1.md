@@ -34,7 +34,7 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Cecilia Neve, Jimenez, Laura Rosales, Ortiz. (nan). *Por la senda de los círculos*. , nan
+> Cecilia Neve Jimenez, Laura Rosales Ortiz. (nan). *Por la senda de los círculos*. , nan
 
 <details>
 <summary>BibTeX</summary>

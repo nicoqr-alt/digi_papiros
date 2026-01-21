@@ -39,7 +39,7 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Jose, Antonio Gómez, Ortega, Carlos, Jacob Rubio, Barrios, Rogelio Valdez, Delgado. (2999). *Concursos Nacionales de la Olimpiada Mexicana de Matemáticas:1987-2016*. Instituto de Matemáticas, UNAM, 0
+> Jose Antonio Gómez Ortega, Carlos Jacob Rubio Barrios, Rogelio Valdez Delgado. (2999). *Concursos Nacionales de la Olimpiada Mexicana de Matemáticas:1987-2016*. Instituto de Matemáticas, UNAM, 0
 
 <details>
 <summary>BibTeX</summary>

@@ -40,7 +40,7 @@ Resumen 5
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Octavio Mendoza, Edith, Corina Saenz, Valadez, María, José Souto. (2014). *Grupos I*. Instituto de Matemáticas, UNAM, 3
+> Diana Avella, Octavio Mendoza, Edith Corina Saenz Valadez, María José Souto. (2014). *Grupos I*. Instituto de Matemáticas, UNAM, 3
 
 <details>
 <summary>BibTeX</summary>

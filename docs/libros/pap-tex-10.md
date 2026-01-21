@@ -40,7 +40,7 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Gabriela Campero, Edith, Corina Saenz, Valadez. (2020). *Curso introductorio, de álgebra II*. Instituto de Matemáticas, UNAM, 1
+> Diana Avella, Gabriela Campero, Edith Corina Saenz Valadez. (2020). *Curso introductorio, de álgebra II*. Instituto de Matemáticas, UNAM, 1
 
 <details>
 <summary>BibTeX</summary>

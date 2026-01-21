@@ -39,7 +39,7 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Patricia Dominguez, Soto, Peter Makienko, Carlos Cabrera, Ocañas. (2999). *Proceedings of the Workshop on Holomorphic Dynamics*. Instituto de Matemáticas, UNAM, 0
+> Patricia Dominguez Soto, Peter Makienko, Carlos Cabrera Ocañas. (2999). *Proceedings of the Workshop on Holomorphic Dynamics*. Instituto de Matemáticas, UNAM, 0
 
 <details>
 <summary>BibTeX</summary>

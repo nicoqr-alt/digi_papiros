@@ -39,7 +39,7 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung, Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky. (2999). *Teoría de singularidades en topología, geometría y foliaciones II*. Instituto de Matemáticas, UNAM, 0
+> Jean-Paul Brasselet, Felipe Cano, Dominique Cerveau, Dung Tráng Lê, Frank Loray, Mutsuo Oka, José Seade, Mark Spivakovsky. (2999). *Teoría de singularidades en topología, geometría y foliaciones II*. Instituto de Matemáticas, UNAM, 0
 
 <details>
 <summary>BibTeX</summary>

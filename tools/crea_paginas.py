@@ -12,8 +12,9 @@ def fila_a_obj(r):
        #cada fila (del diccionario) es re-hecha para que los campos con entradas múltiples (e.g., múltiples autores) se vuelvan una lista
        autores, anio, _id, titulo, coleccion, serie, tomo, editorial, edicion, isbn_col, isbn_libro, estado, resumen, downs = extractidatos.extractidatos(r)
 
-       #Autores normal:
-       autsnor = [", ".join(autor[0]) + " " + ", ".join(autor[1]) for autor in autores]
+       #Autores para citar:
+       #Recuerda que se recibe una lista del tipo [[nombre1, nombre2], [apellido1, apellido2]]
+       autsnor = [" ".join(autor[0]) + " " + " ".join(autor[1]) for autor in autores]
 
        #Autores bibtex:
        

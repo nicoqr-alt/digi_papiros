@@ -38,7 +38,7 @@ Resumen 2
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Maria, Luisa Pérez, Seguí. (2018). *Combinatoria*. Instituto de Matemáticas, UNAM, 2
+> Maria Luisa Pérez Seguí. (2018). *Combinatoria*. Instituto de Matemáticas, UNAM, 2
 
 <details>
 <summary>BibTeX</summary>

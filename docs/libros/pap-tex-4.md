@@ -40,7 +40,7 @@ Resuemn 6
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Octavio Mendoza, Edith, Corina Saenz, Valadez, María, José Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
+> Diana Avella, Octavio Mendoza, Edith Corina Saenz Valadez, María José Souto. (2016). *Grupos II*. Instituto de Matemáticas, UNAM, 1
 
 <details>
 <summary>BibTeX</summary>
