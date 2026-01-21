@@ -1,5 +1,5 @@
 def escribe_metadatos(autores, coleccion, serie, tomo, anio, editorial, edicion, isbn_col, isbn_libro):
-    #Lista con autores de nombre y apellio completo en una sola string
+    #Lista con autores de nombre y apellido completo en una sola string
     auts = [", ".join(autor[0]) + " " + ", ".join(autor[1]) for autor in autores]
 
 
