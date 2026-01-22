@@ -20,7 +20,7 @@ extra:
 nav:
  - Inicio: index.md
  - Catálogo: catalogo.md
- - Explorar: explorar.md
+ - Búsqueda avanzada: explorar.md
  - Acerca de: acerca.md
  - TUL: tul.md
 markdown_extensions:
