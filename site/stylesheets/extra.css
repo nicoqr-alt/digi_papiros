@@ -26,21 +26,69 @@ body{
 }
 
 /*Los resultados vistos como tarjetitas*/
-.card{
-    border: 1px solid rgba(0,0,0,0.15);
+
+.card {
+  display: block;
+  position: relative;
+  min-height: 170px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, .1); */
+  margin: .65rem 0;
+  /* border: 1px solid rgba(0,0,0,0.15); */
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: .75rem;
+  padding: 1rem;
+  margin: .65rem 0;
+  background: var(--md-default-bg-color);
+  /* box-shadow: 0 1px 3px rgba(12, 8, 132, 0.569);  */
+  /* border: 1px solid rgba(0,0,0,0.15);
     border-radius: .75rem;
     padding: 1rem;
     margin: .65rem 0;
     background: var(--md-default-bg-color);
-    box-shadow: 0 1px 3px rgba(12, 8, 132, 0.569);
+    box-shadow: 0 1px 3px rgba(12, 8, 132, 0.569); */
 }
 .card h3 {
     margin:.1rem 0 .35rem;
-    font-size: 1.05rem;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.card .autores {
+    margin:.3rem 0 .5rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    /* color: var(--md-default-fg-color--lighter); */
 }
 .card .meta {
     margin:.3rem 0 .5rem;
-    color: var(--md-default-fg-color--lighter);
+    font-size: 0.6rem;
+    line-height: 1.2;
+    /* color: var(--md-default-fg-color--lighter); */
+}
+
+.card a:hover {
+  color: var(--md-default-fg-color--lighter);
+}
+
+/* Estilo para las tarjetitas */
+.libro-portada {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.libro-portada img {
+  height: 150px;
+}
+
+.libro-datos {
+  display: inline-block;
+  position: relative;
+  font-size: .85rem;
+  font-weight: 300;
+  margin-left: 150px;
 }
 
 /*Botones en cada tarjetita*/

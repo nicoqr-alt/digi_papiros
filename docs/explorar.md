@@ -51,13 +51,24 @@
         return;
         }
     cont.innerHTML = lista.map(x => `
-        <div class="card">
+        <!-- <div class="card">
         <h3><a href="${BASE}/libros/${x.id}/"> <b>${x.titulo}</b> <br>
             <small class="meta"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</small>
             <p>${[x.coleccion ? `Colección: ${x.coleccion}` : '', x.serie ? `Serie: ${x.serie}` : '', x.anio ? `Año: ${x.anio}` : ''].filter(Boolean).join(' | ')}</p>
             <img src="${BASE}/assets/covers/${x.id}.jpg" style="display: none" onload="this.style.display=''">
             <img src="${BASE}/assets/covers/${x.id}.png" style="display: none" onload="this.style.display=''">
-        </div>
+        </div> -->
+        <div class="card">
+          <div class="libro-portada">
+              <img src="${BASE}/assets/covers/${x.id}.jpg" style="display: none" onload="this.style.display=''">
+              <img src="${BASE}/assets/covers/${x.id}.png" style="display: none" onload="this.style.display=''">
+          </div>
+          <div class="libro-datos">
+            <h3><a href="${BASE}/libros/${x.id}/"> <b>${x.titulo}</b> <br>
+            <div class="autores"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</div>
+            <div class="meta">${[x.coleccion ? `Colección: ${x.coleccion}` : '', x.serie ? `Serie: ${x.serie}` : '', x.anio ? `Año: ${x.anio}` : ''].filter(Boolean).join(' | ')}</div>
+          </div>
+        </div>        
         `).join('');
     }
     function coincideAutor(libro, needle){
@@ -134,7 +145,7 @@
 
 </script>
 
-<style>
+<!-- <style>
     #resultados .card{
         padding:.9rem 1rem; 
         border:1px solid
@@ -147,4 +158,4 @@
     #resultados p{
         margin:.1rem 0;
     }
-</style>
+</style> -->

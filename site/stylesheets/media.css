@@ -77,14 +77,19 @@
     height: 70px;
     width: 168px;
   }
-    #resultados {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: .8rem;
-    }
-    #resultados .card{ 
-        margin: 0;
-    }
+  /* #resultados {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
+  } */
+  #resultados {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: .8rem; */
+  }
+  /* #resultados .{ 
+      margin: 0;
+  } */
 }
 
 @media (min-width: 1200px) {
@@ -111,7 +116,6 @@
   }    
   #resultados {
       display:grid;
-      grid-template-columns:
-      repeat(3, 1fr);
+      grid-template-columns: repeat(1, 1fr);
   }
 }
