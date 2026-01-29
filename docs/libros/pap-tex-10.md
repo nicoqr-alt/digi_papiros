@@ -1,9 +1,9 @@
 ---
-title: "Curso introductorio, de álgebra II"
+title: "Curso introductorio de álgebra II"
 authors: [[['Diana'], ['Avella']], [['Gabriela'], ['Campero']], [['Edith', 'Corina'], ['Saenz', 'Valadez']]]
 tags: [Papirhos, Textos, 2020]
 ---
-# Curso introductorio, de álgebra II
+# Curso introductorio de álgebra II
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Textos</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2020</span> <span class ="chip"></span class ="icon">ℹ️</span> Publicado</span></div>
 
 <p align = "left"> <img src = "../../assets/covers/pap-tex-10.png" width="500" height="600"></p>
@@ -40,13 +40,13 @@ Resumen proximamente
     Documento con marca de agua para distribución **digital**.
 
 ## Cómo citar
-> Diana Avella, Gabriela Campero, Edith Corina Saenz Valadez. (2020). *Curso introductorio, de álgebra II*. Instituto de Matemáticas, UNAM, 1
+> Diana Avella, Gabriela Campero, Edith Corina Saenz Valadez. (2020). *Curso introductorio de álgebra II*. Instituto de Matemáticas, UNAM, 1
 
 <details>
 <summary>BibTeX</summary>
 <textarea id="myInput" rows="6" cols="80" class="verbatim">
 @BOOK{pap-tex-10, 
-title = {Curso introductorio, de álgebra II}, 
+title = {Curso introductorio de álgebra II}, 
 author = {Avella, Diana and Campero, Gabriela and Saenz, Edith}, 
 year = {2020}, 
 publisher = {Instituto de Matemáticas, UNAM}, 

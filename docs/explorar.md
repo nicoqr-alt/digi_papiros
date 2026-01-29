@@ -66,7 +66,8 @@
           <div class="libro-datos">
             <h3><a href="${BASE}/libros/${x.id}/"> <b>${x.titulo}</b> <br>
             <div class="autores"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</div>
-            <div class="meta">${[x.coleccion ? `Colección: ${x.coleccion}` : '', x.serie ? `Serie: ${x.serie}` : '', x.anio ? `Año: ${x.anio}` : ''].filter(Boolean).join(' | ')}</div>
+            <div class="meta">${[x.coleccion ? `<b>Colección:</b> ${x.coleccion}` : '', x.serie ? `<b>Serie:</b> ${x.serie}` : '', x.anio ? `<b>Año:</b> ${x.anio}` : ''].filter(Boolean).join(' | ')}<br>
+            <b>ISBN: </b>${x.isbn_libro}</div>
           </div>
         </div>        
         `).join('');
@@ -138,10 +139,7 @@
             default: return cmpTituloAsc;
         }
     }
-
-
-
-    })();
+})();
 
 </script>
 

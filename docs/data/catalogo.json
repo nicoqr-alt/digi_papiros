@@ -57,25 +57,7 @@
   },
   {
     "id": "pap-tex-10",
-    "titulo": "Curso introductorio, de álgebra II",
-    "autores": [
-      "Diana Avella",
-      "Gabriela Campero",
-      "Edith Corina Saenz Valadez"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Textos",
-    "tomo": "2",
-    "anio": "2020",
-    "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
-    "isbn_col": "978-607-02-5149-8",
-    "isbn_libro": "978-607-30-3681-8",
-    "estado": "Publicado"
-  },
-  {
-    "id": "pap-tex-10",
-    "titulo": "Curso introductorio, de álgebra II",
+    "titulo": "Curso introductorio de álgebra II",
     "autores": [
       "Diana Avella",
       "Gabriela Campero",
