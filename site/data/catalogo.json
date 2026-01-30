@@ -1,26 +1,36 @@
 [
   {
-    "id": "pap-not-1",
-    "titulo": "Teoría de singularidades en topología, geometría y foliaciones I",
+    "id": "pap-tex-2",
+    "titulo": "Análisis Matemático",
     "autores": [
-      "Jean-Paul Brasselet",
-      "Felipe Cano",
-      "Dominique Cerveau",
-      "Dung Tráng Lê",
-      "Frank Loray",
-      "Mutsuo Oka",
-      "José Seade",
-      "Mark Spivakovsky"
+      "Mónica Clapp"
     ],
     "coleccion": "Papirhos",
-    "serie": "Notas",
+    "serie": "Textos",
     "tomo": "nan",
-    "anio": "2017",
+    "anio": "2999",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
-    "isbn_col": "978-607-02-5149-8",
-    "isbn_libro": "978-607-02-9845-5",
-    "estado": "Publicado"
+    "edicion": "0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-7",
+    "titulo": "Clases características",
+    "autores": [
+      "John Milnor",
+      "James Stasheff"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "nan",
+    "anio": "2999",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
   },
   {
     "id": "cuad-x-1",
@@ -37,6 +47,42 @@
     "isbn_col": "978-968-36-8599-5",
     "isbn_libro": "978-607-02-85882",
     "estado": "Publicado"
+  },
+  {
+    "id": "pap-ico-3",
+    "titulo": "Concursos Nacionales de la Olimpiada Mexicana de Matemáticas:1987-2016",
+    "autores": [
+      "Jose Antonio Gómez Ortega",
+      "Carlos Jacob Rubio Barrios",
+      "Rogelio Valdez Delgado"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Icosaedro",
+    "tomo": "nan",
+    "anio": "2999",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-11",
+    "titulo": "Curso breve de geometría proyectiva",
+    "autores": [
+      "Felipe Cano",
+      "Beatriz Molina-Samper",
+      "Fernando Sanz"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
+    "tomo": "nan",
+    "anio": "2999",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
   },
   {
     "id": "pap-tex-6",
@@ -57,7 +103,7 @@
   },
   {
     "id": "pap-tex-10",
-    "titulo": "Curso introductorio, de álgebra II",
+    "titulo": "Curso introductorio de álgebra II",
     "autores": [
       "Diana Avella",
       "Gabriela Campero",
@@ -74,22 +120,21 @@
     "estado": "Publicado"
   },
   {
-    "id": "pap-tex-10",
-    "titulo": "Curso introductorio, de álgebra II",
+    "id": "pap-tex-5",
+    "titulo": "Geometría euclidiana bidimensional y su grupo de transformaciones",
     "autores": [
-      "Diana Avella",
-      "Gabriela Campero",
-      "Edith Corina Saenz Valadez"
+      "Manuel Cruz",
+      "Montserrat García"
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
-    "tomo": "2",
-    "anio": "2020",
+    "tomo": "nan",
+    "anio": "2999",
     "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "1",
-    "isbn_col": "978-607-02-5149-8",
-    "isbn_libro": "978-607-30-3681-8",
-    "estado": "Publicado"
+    "edicion": "0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
   },
   {
     "id": "pap-tex-1",
@@ -130,130 +175,10 @@
     "estado": "Publicado"
   },
   {
-    "id": "pap-mix-1",
-    "titulo": "Por la senda de los círculos",
-    "autores": [
-      "Cecilia Neve Jimenez",
-      "Laura Rosales Ortiz"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Mixbaal",
-    "tomo": "nan",
-    "anio": "nan",
-    "editorial": "",
-    "edicion": "nan",
-    "isbn_col": "",
-    "isbn_libro": "",
-    "estado": "por_recibir"
-  },
-  {
-    "id": "pap-ico-3",
-    "titulo": "Concursos Nacionales de la Olimpiada Mexicana de Matemáticas:1987-2016",
-    "autores": [
-      "Jose Antonio Gómez Ortega",
-      "Carlos Jacob Rubio Barrios",
-      "Rogelio Valdez Delgado"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Icosaedro",
-    "tomo": "nan",
-    "anio": "2999",
-    "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "0",
-    "isbn_col": "000",
-    "isbn_libro": "000",
-    "estado": "Físico"
-  },
-  {
-    "id": "pap-tex-2",
-    "titulo": "Análisis Matemático",
-    "autores": [
-      "Mónica Clapp"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Textos",
-    "tomo": "nan",
-    "anio": "2999",
-    "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "0",
-    "isbn_col": "000",
-    "isbn_libro": "000",
-    "estado": "Físico"
-  },
-  {
-    "id": "pap-tex-3",
-    "titulo": "Topología Diferencial",
-    "autores": [
-      "Victor Guillemin",
-      "Allan Pollack"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Textos",
-    "tomo": "nan",
-    "anio": "2999",
-    "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "0",
-    "isbn_col": "000",
-    "isbn_libro": "000",
-    "estado": "Físico"
-  },
-  {
-    "id": "pap-tex-5",
-    "titulo": "Geometría euclidiana bidimensional y su grupo de transformaciones",
-    "autores": [
-      "Manuel Cruz",
-      "Montserrat García"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Textos",
-    "tomo": "nan",
-    "anio": "2999",
-    "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "0",
-    "isbn_col": "000",
-    "isbn_libro": "000",
-    "estado": "Físico"
-  },
-  {
-    "id": "pap-tex-7",
-    "titulo": "Clases características",
-    "autores": [
-      "John Milnor",
-      "James Stasheff"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Textos",
-    "tomo": "nan",
-    "anio": "2999",
-    "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "0",
-    "isbn_col": "000",
-    "isbn_libro": "000",
-    "estado": "Físico"
-  },
-  {
     "id": "pap-tex-9",
     "titulo": "Introducción al álgebra lineal",
     "autores": [
       "Felipe Zaldivar"
-    ],
-    "coleccion": "Papirhos",
-    "serie": "Textos",
-    "tomo": "nan",
-    "anio": "2999",
-    "editorial": "Instituto de Matemáticas, UNAM",
-    "edicion": "0",
-    "isbn_col": "000",
-    "isbn_libro": "000",
-    "estado": "Físico"
-  },
-  {
-    "id": "pap-tex-11",
-    "titulo": "Curso breve de geometría proyectiva",
-    "autores": [
-      "Felipe Cano",
-      "Beatriz Molina-Samper",
-      "Fernando Sanz"
     ],
     "coleccion": "Papirhos",
     "serie": "Textos",
@@ -282,20 +207,32 @@
     "estado": "Físico"
   },
   {
-    "id": "pap-not-2",
-    "titulo": "Teoría de singularidades en topología, geometría y foliaciones II",
+    "id": "pap-mix-1",
+    "titulo": "Por la senda de los círculos",
     "autores": [
-      "Jean-Paul Brasselet",
-      "Felipe Cano",
-      "Dominique Cerveau",
-      "Dung Tráng Lê",
-      "Frank Loray",
-      "Mutsuo Oka",
-      "José Seade",
-      "Mark Spivakovsky"
+      "Cecilia Neve Jimenez",
+      "Laura Rosales Ortiz"
     ],
     "coleccion": "Papirhos",
-    "serie": "Notas",
+    "serie": "Mixbaal",
+    "tomo": "nan",
+    "anio": "nan",
+    "editorial": "",
+    "edicion": "nan",
+    "isbn_col": "",
+    "isbn_libro": "",
+    "estado": "por_recibir"
+  },
+  {
+    "id": "pap-act-1",
+    "titulo": "Proceedings of the Workshop on Holomorphic Dynamics",
+    "autores": [
+      "Patricia Dominguez Soto",
+      "Peter Makienko",
+      "Carlos Cabrera Ocañas"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Actas",
     "tomo": "nan",
     "anio": "2999",
     "editorial": "Instituto de Matemáticas, UNAM",
@@ -324,15 +261,60 @@
     "estado": "Físico"
   },
   {
-    "id": "pap-act-1",
-    "titulo": "Proceedings of the Workshop on Holomorphic Dynamics",
+    "id": "pap-not-1",
+    "titulo": "Teoría de singularidades en topología, geometría y foliaciones I",
     "autores": [
-      "Patricia Dominguez Soto",
-      "Peter Makienko",
-      "Carlos Cabrera Ocañas"
+      "Jean-Paul Brasselet",
+      "Felipe Cano",
+      "Dominique Cerveau",
+      "Dung Tráng Lê",
+      "Frank Loray",
+      "Mutsuo Oka",
+      "José Seade",
+      "Mark Spivakovsky"
     ],
     "coleccion": "Papirhos",
-    "serie": "Actas",
+    "serie": "Notas",
+    "tomo": "nan",
+    "anio": "2017",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "1",
+    "isbn_col": "978-607-02-5149-8",
+    "isbn_libro": "978-607-02-9845-5",
+    "estado": "Publicado"
+  },
+  {
+    "id": "pap-not-2",
+    "titulo": "Teoría de singularidades en topología, geometría y foliaciones II",
+    "autores": [
+      "Jean-Paul Brasselet",
+      "Felipe Cano",
+      "Dominique Cerveau",
+      "Dung Tráng Lê",
+      "Frank Loray",
+      "Mutsuo Oka",
+      "José Seade",
+      "Mark Spivakovsky"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Notas",
+    "tomo": "nan",
+    "anio": "2999",
+    "editorial": "Instituto de Matemáticas, UNAM",
+    "edicion": "0",
+    "isbn_col": "000",
+    "isbn_libro": "000",
+    "estado": "Físico"
+  },
+  {
+    "id": "pap-tex-3",
+    "titulo": "Topología Diferencial",
+    "autores": [
+      "Victor Guillemin",
+      "Allan Pollack"
+    ],
+    "coleccion": "Papirhos",
+    "serie": "Textos",
     "tomo": "nan",
     "anio": "2999",
     "editorial": "Instituto de Matemáticas, UNAM",

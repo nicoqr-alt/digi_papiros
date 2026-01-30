@@ -1,5 +1,6 @@
 #!/usr/bin/env
 import csv, os, json
+from operator import itemgetter
 BASE = os.path.dirname(os.path.dirname(__file__))
 DOCS = os.path.join(BASE, "docs")
 CSV_PATH = os.path.join(BASE, "data", "catalogo.csv")
@@ -42,10 +43,16 @@ def main():
     for fila in filas: #Genera catálogo JSON y escribe las páginas de las fichas
            data_json.append(genera_json.gjsn(fila))
            crea_paginas.fila_a_obj(fila)
-    json_path = os.path.join(DATA_DIR, "catalogo.json") #Path del JSON
+    json_path = os.path.join(DATA_DIR, "catalogo-unsort.json") #Path del JSON
+    json_path_sorted = os.path.join(DATA_DIR, "catalogo.json") #Path del JSON
     with open(json_path, "w", encoding = "utf-8") as jf: #Abriendo el archivo JSON como JSNfile
            json.dump(data_json,jf,ensure_ascii = False, indent = 2)
     print("JSON exportado:", json_path)
+    with open(json_path,'r',encoding = "utf8") as in_file, open(json_path_sorted,'w',encoding = "utf8") as out_file:
+           data = json.load(in_file)
+           data.sort(key=itemgetter('titulo'))
+           ordenado = json.dumps(data,ensure_ascii = False, indent = 2)
+           print(ordenado,file=out_file)
 #------------------------------------------------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
             main()
