@@ -6,7 +6,7 @@ tags: [Papirhos, Icosaedro, 2999]
 # Concursos Nacionales de la Olimpiada Mexicana de Matemáticas:1987-2016
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Icosaedro</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2999</span> <span class ="chip"></span class ="icon">ℹ️</span> Físico</span></div>
 
-<p align = "left"> <img src = "../../assets/covers/pap-ico-3.jpg" width="500" height="600"></p>
+<p align = "left"> <img src = "../../assets/covers/pap-ico-3.png" width="500" height="600"></p>
 
 
 

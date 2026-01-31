@@ -6,7 +6,7 @@ tags: [Papirhos, Notas, 2999]
 # Teoría de singularidades en topología, geometría y foliaciones II
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Notas</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> 2999</span> <span class ="chip"></span class ="icon">ℹ️</span> Físico</span></div>
 
-<p align = "left"> <img src = "../../assets/covers/pap-not-2.jpg" width="500" height="600"></p>
+<p align = "left"> <img src = "../../assets/covers/pap-not-2.png" width="500" height="600"></p>
 
 
 

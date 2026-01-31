@@ -59,12 +59,13 @@
             <img src="${BASE}/assets/covers/${x.id}.png" style="display: none" onload="this.style.display=''">
         </div> -->
         <div class="card">
+        <a href="${BASE}/libros/${x.id}/">
           <div class="libro-portada">
               <img src="${BASE}/assets/covers/${x.id}.jpg" style="display: none" onload="this.style.display=''">
               <img src="${BASE}/assets/covers/${x.id}.png" style="display: none" onload="this.style.display=''">
           </div>
           <div class="libro-datos">
-            <h3><a href="${BASE}/libros/${x.id}/"> <b>${x.titulo}</b> <br>
+            <h3>${x.titulo}<br>
             <div class="autores"><strong><Autores:></strong>${(x.autores && x.autores.length ? x.autores.join(', ') : '_')}</div>
             <div class="meta">${[x.coleccion ? `<b>Colección:</b> ${x.coleccion}` : '', x.serie ? `<b>Serie:</b> ${x.serie}` : '', x.anio ? `<b>Año:</b> ${x.anio}` : ''].filter(Boolean).join(' | ')}<br>
             <b>ISBN: </b>${x.isbn_libro}</div>

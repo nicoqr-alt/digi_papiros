@@ -26,7 +26,7 @@ def fila_a_obj(r):
        cover_rel = covername+".png" 
        cover_abs = os.path.join(DOCS, cover_rel)
        cover_md = f'![Portada de "{titulo}"](../{cover_rel})\n' if os.path.exists(cover_abs) else ""
-       cover_file = f'\"../../{cover_rel}\"' if os.path.exists(cover_abs) else '\"../../'+covername+'.jpg\"'
+       cover_file = f'\"../../{cover_rel}\"' if os.path.exists(cover_abs) else '\"../../'+covername+'.png\"'
 
        #Escritor de chip para la página de ficha
        def chip(label, val, emoji):

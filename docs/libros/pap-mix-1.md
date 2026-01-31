@@ -6,7 +6,7 @@ tags: [Papirhos, Mixbaal, nan]
 # Por la senda de los círculos
 <div class = "chips"><span class ="chip"></span class ="icon">🏷</span> Mixbaal</span> <span class ="chip"></span class ="icon">📚</span> Papirhos</span> <span class ="chip"></span class ="icon">🗓</span> nan</span> <span class ="chip"></span class ="icon">ℹ️</span> por recibir</span></div>
 
-<p align = "left"> <img src = "../../assets/covers/pap-mix-1.jpg" width="500" height="600"></p>
+<p align = "left"> <img src = "../../assets/covers/pap-mix-1.png" width="500" height="600"></p>
 
 
 
